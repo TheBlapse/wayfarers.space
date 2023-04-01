@@ -157,3 +157,5 @@ Meet together, learn and build? We will develop a set of guiding principles and 
 We understand there are a lot of unknown unknowns. But that's how we do it, not by starting with the best education system, but by starting today. 
 
 The world is flat; it really is. There is nowhere to get to, we are here, and this is our playground. Can we build this? Let's not dream about tomorrow and start today. Let's try. 
+
+## [Join Discord](http://discord.gg/MDq7yEFKUd)
