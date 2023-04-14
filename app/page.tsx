@@ -34,15 +34,15 @@ export default function Home() {
         </p>
         <div className="pt-2">
           <ul className="list-disc list-inside font-semibold ">
-            <li className="text-opacity-100 hover:italic">
+            <li className="text-opacity-100 underline underline-offset-2 hover:italic">
               <Link href="https://twitter.com/WayfarersSpace/status/1641860389582299146">
                 Year Zero &mdash; The Manifesto (Work in Progress)
               </Link>
             </li>
-            <li className="text-opacity-100 hover:italic">
+            <li className="text-opacity-100 underline underline-offset-2 hover:italic">
               <Link href="https://twitter.com/WayfarersSpace">Twitter</Link>
             </li>
-            <li className="text-opacity-100 hover:italic">
+            <li className="text-opacity-100 underline underline-offset-2 hover:italic">
               <Link href="https://discord.gg/Red4DJZphV">Discord</Link>
             </li>
           </ul>
