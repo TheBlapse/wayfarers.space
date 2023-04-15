@@ -1,8 +1,8 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="my-8">
-      <div className="container  mx-auto w-[90vw] md:w-[70vw] lg:w-[60vw] max-w-2xl bg-[FAFAFA]">
+    <main className=" pattern min-h-screen">
+      <div className="container py-8 mx-auto w-[90vw] md:w-[70vw] lg:w-[60vw] max-w-2xl bg-[FAFAFA]">
         <h1 className=" font-semibold leading-tight text-2xl md:text-4xl mt-0 pb-2 border-b-2 border-b-[808080]">
           Wayfarers&apos; Space
         </h1>
