@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
-      <Script async src="https://umami.theblapse.me/script.js" data-website-id="ca81da90-abde-477a-8df1-8131b22ae1a8" strategy="beforeInteractive" />
+      <Script async src="https://umami.theblapse.me/script.js" data-website-id="ca81da90-abde-477a-8df1-8131b22ae1a8" />
     </html>
   );
 }
