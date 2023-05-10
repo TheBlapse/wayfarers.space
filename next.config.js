@@ -3,6 +3,20 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  async redirects() {
+    return [
+      {
+        source: "/discord",
+        destination: "https://discord.gg/Red4DJZphV",
+        permanent: true,
+      },
+      {
+        source: "/twitter",
+        destination: "https://twitter.com/WayfarersSpace",
+        permanent: true,
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

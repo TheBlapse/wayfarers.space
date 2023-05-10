@@ -1,58 +1,155 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className=" pattern min-h-screen">
-      <div className="container py-8 mx-auto w-[90vw] md:w-[70vw] lg:w-[60vw] max-w-2xl bg-[FAFAFA]">
-        <h1 className=" font-semibold leading-tight text-2xl md:text-4xl mt-0 pb-2 border-b-2 border-b-[808080]">
-          Wayfarers&apos; Space
+    <main className=" mx-auto min-h-screen w-[90vw] max-w-2xl  py-16 md:w-[70vw] lg:w-[60vw] ">
+      <div className="container flex flex-col gap-2 pb-8">
+        <h1 className="mt-0 font-head text-2xl font-bold leading-tight text-black md:text-3xl">
+          Let&rsquo;s build computers? Or rockets? Or games? together
         </h1>
-        <div className="flex flex-col gap-3 pt-2 text-base md:text-lg">
-          <p>The home for people embarking on the non-traditional path.</p>
-          <p>
-            We&apos;ve already exited the system, and we&apos;re looking for
-            friends.
-          </p>
-          <p>
-            We simply want to build a community of friends who share our itch
-            for understanding the world and creating value. Our goal is to
-            create a network of students who learn and build together.
-          </p>
-          <p>
-            At Wayfarers.Space, we approach education from a different
-            perspective. We see life as a playground, where everyone is playing
-            their own game. There are no right or wrong games, for there is no
-            right or wrong. We encourage everyone to find their own game and
-            pursue it with curiosity and passion.
-          </p>
-          <p>
-            We have an itch to understand the world, how it functions, what
-            secrets we can find, and hoping to create value and solve the
-            biggest problems out there.
-          </p>
-          <p>
-            A network of students, learning and building stuff together &mdash;
-            Using Balaji&apos;s Network State approach, We plan to build an
-            Online network first, and physical second, but not never. Preferably
-            with time, Network communities would gravitate towards being more
-            physical, and we can finally do everything we want, from building
-            rockets to computers.
-          </p>
-          <div className="pt-2 text-base md:text-lg">
-            <ul className="list-disc list-inside font-semibold ">
-              <li className="text-opacity-100 underline underline-offset-2 hover:italic">
-                <Link href="https://github.com/theblapse/Wayfarers.Space/blob/master/README.md">
-                  Year Zero &mdash; The Manifesto (Work in Progress)
-                </Link>
-              </li>
-              <li className="text-opacity-100 underline underline-offset-2 hover:italic">
-                <Link href="https://twitter.com/WayfarersSpace">Twitter</Link>
-              </li>
-              <li className="text-opacity-100 underline underline-offset-2 hover:italic">
-                <Link href="https://discord.gg/Red4DJZphV">Discord</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <figure className=" text-black">
+          <blockquote className="font-serif text-sm font-[425] italic leading-tight md:text-base">
+            “Study hard what interests you the most in the most undisciplined,
+            irreverent and original manner possible.”
+            <figcaption className="text-xs not-italic md:text-sm">
+              &mdash; Richard Feynman
+            </figcaption>
+          </blockquote>
+        </figure>
+      </div>
+
+      <div className="flex flex-col gap-4 font-serif text-base font-[425] text-black md:text-lg">
+        <ul className="list-inside list-disc">
+          <li>
+            A friendly community where we could learn, build and figure things
+            out together.
+          </li>
+          <li>
+            Working together to explore the best ways to educate ourselves.
+          </li>
+          <li>
+            And to build towards a different way for those who don&rsquo;t
+            really like schools or universities.
+          </li>
+          <li>Not yet another (dead) discord server.</li>
+          <li>
+            Figuring out to create a physical lab to make our (crazy) ideas a
+            reality.
+          </li>
+        </ul>
+
+        <p>
+          Hey! We were thinking about how cool it would be to have a small
+          community, a group of friends who could work together on ideas, create
+          awesome things and support each in getting educated in the most
+          adventurous (and audacious) way possible.
+        </p>
+        <p>
+          Like learning how to build a computer from scratch{" "}
+          <a target="_blank" href="https://github.com/geohot/fromthetransistor">
+            (from the transistor)
+          </a>
+          , studying history together{" "}
+          <a
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/The_Story_of_Civilization"
+          >
+            (Story of our Civilization)
+          </a>
+          , exploring unknown depths of the universe{" "}
+          <a target="_blank" href="https://theoreticalminimum.com/">
+            (Leonard Susskind)
+          </a>{" "}
+          or creating a new business?
+        </p>
+        <p>
+          We don&rsquo;t want this to be yet another &lsquo;dead&rdquo; discord
+          server. We want this group to be really active, engaging &mdash; like
+          a classroom of friends would be. Anyone, including you, is invited,
+          you don&lsquo;t need to be technical. We just want you to be very
+          excited about life, about creating value, and wanting the best fun
+          possible.
+        </p>
+        <p>
+          We want this community to feel like a &lsquo;home&rsquo; for you - if
+          you can&rsquo;t seem to find one in all the mess and noise around us
+          and act as a foundation for those (like us) finding their own exciting
+          path. We really do believe that great things happen when we people
+          come together. We&rsquo;d love to help you, even if in a very tiny
+          way, to achieve your goals somehow. To help you achieve your dream
+          maybe, like friends do.
+        </p>
+        <p>
+          There are two parts to this &mdash; the first one being the short-term
+          goal of creating a place where we can all come together &ndash; bounce
+          off ideas, learn new things, critique each other, create meaningful
+          things, and expand our{" "}
+          <a target="_blank" href="https://en.wikipedia.org/wiki/Antifragility">
+            (antifragile)
+          </a>{" "}
+          understanding. All in the name of hopefully building a career and life
+          we can be proud of.
+        </p>
+        <p>
+          We don&rsquo;t really like school, colleges and are opting out to
+          pursue our own game of understanding the world. So we want this to be
+          a collective effort to support each other to navigate the
+          uncertainties that inevitably come because of that &mdash; be it how
+          to find meaningful jobs, start a company, build a network, find
+          like-minded individuals or deep dive into any bold endeavor.
+        </p>
+        <p>
+          The second element of the community is to work progressively towards
+          finding, exploring (and implementing) better ways of educating
+          ourselves than what schools or colleges offer.
+        </p>
+      </div>
+
+      <div className="flex w-full flex-row justify-between pt-8 font-head font-semibold">
+        <Link
+          href="/year-zero"
+          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+            {" "}
+            Year Zero{" "}
+          </button>
+        </Link>
+        <Link
+          href="/apply"
+          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+            {" "}
+            Apply{" "}
+          </button>
+        </Link>
+        <Link
+          href="/faq"
+          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+            {" "}
+            FAQ{" "}
+          </button>
+        </Link>
+        <Link
+          href="/discord"
+          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+            {" "}
+            Discord{" "}
+          </button>
+        </Link>
+        <Link
+          href="/twitter"
+          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+            {" "}
+            Twitter{" "}
+          </button>
+        </Link>
       </div>
     </main>
   );
