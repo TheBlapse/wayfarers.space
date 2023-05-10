@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import fs from "fs";
 function getLastUpdatedDate(): string {
   const fileStats = fs.statSync(__filename);
@@ -388,7 +389,46 @@ export default function page() {
           here, and this is our playground. Can we build this? Let&rsquo;s not
           dream about tomorrow and start today. Let&rsquo;s try.
         </p>
+        <div className="flex w-full flex-col flex-wrap gap-4 pt-8 font-head font-semibold sm:justify-between md:flex-row ">
+        <Link
+          href="/"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black md:text-lg">
+            {" "}
+            Home{" "}
+          </button>
+        </Link>
+        <Link
+          href="/apply"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
+            {" "}
+            Apply{" "}
+          </button>
+        </Link>
+        <Link
+          href="/discord"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
+            {" "}
+            Discord{" "}
+          </button>
+        </Link>
+        <Link
+          href="/twitter"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+        >
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
+            {" "}
+            Twitter{" "}
+          </button>
+        </Link>
       </div>
+      </div>
+
     </main>
   );
 }
