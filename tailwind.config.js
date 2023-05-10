@@ -14,6 +14,9 @@ module.exports = {
         head: ["var(--font-cormorant)"],
         serif: ["var(--font-ibarra-real-nova)"],
       },
+      // listStyleImage: {
+      //   dash: 'url("/images/dash.svg")',
+      // },
     },
   },
   plugins: [],

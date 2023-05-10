@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className=" mx-auto min-h-screen w-[90vw] max-w-2xl  py-16 md:w-[70vw] lg:w-[60vw] ">
+    <main className=" mx-auto min-h-screen w-[90vw] max-w-2xl py-16 md:w-[75vw] lg:w-[60vw] ">
       <div className="container flex flex-col gap-2 pb-8">
         <h1 className="mt-0 font-head text-2xl font-bold leading-tight text-black md:text-3xl">
           Let&rsquo;s build computers? Or rockets? Or games? together
@@ -17,8 +17,8 @@ export default function Home() {
         </figure>
       </div>
 
-      <div className="flex flex-col gap-4 font-serif text-base font-[425] text-black md:text-lg">
-        <ul className="list-inside list-disc">
+      <div className="flex flex-col gap-4 font-serif text-base font-[460] text-black md:text-lg">
+        <ul className="list-inside list-disc rounded-l-sm border-l-2 border-l-black pl-4">
           <li>
             A friendly community where we could learn, build and figure things
             out together.
@@ -38,10 +38,10 @@ export default function Home() {
         </ul>
 
         <p>
-          Hey! We were thinking about how cool it would be to have a small
-          community, a group of friends who could work together on ideas, create
-          awesome things and support each in getting educated in the most
-          adventurous (and audacious) way possible.
+          Welcome to Wayfarers&lsquo; Space! We were thinking about how cool it
+          would be to have a small community, a group of friends who could work
+          together on ideas, create awesome things and support each in getting
+          educated in the most adventurous (and audacious) way possible.
         </p>
         <p>
           Like learning how to build a computer from scratch{" "}
@@ -62,7 +62,7 @@ export default function Home() {
           or creating a new business?
         </p>
         <p>
-          We don&rsquo;t want this to be yet another &lsquo;dead&rdquo; discord
+          We don&rsquo;t want this to be yet another &lsquo;dead&rsquo; discord
           server. We want this group to be really active, engaging &mdash; like
           a classroom of friends would be. Anyone, including you, is invited,
           you don&lsquo;t need to be technical. We just want you to be very
@@ -73,10 +73,9 @@ export default function Home() {
           We want this community to feel like a &lsquo;home&rsquo; for you - if
           you can&rsquo;t seem to find one in all the mess and noise around us
           and act as a foundation for those (like us) finding their own exciting
-          path. We really do believe that great things happen when we people
-          come together. We&rsquo;d love to help you, even if in a very tiny
-          way, to achieve your goals somehow. To help you achieve your dream
-          maybe, like friends do.
+          path. We&rsquo;d love to help you, even if in a very tiny way, to
+          achieve your goals somehow. We really do believe that great things
+          happen when we people come together.
         </p>
         <p>
           There are two parts to this &mdash; the first one being the short-term
@@ -84,7 +83,7 @@ export default function Home() {
           off ideas, learn new things, critique each other, create meaningful
           things, and expand our{" "}
           <a target="_blank" href="https://en.wikipedia.org/wiki/Antifragility">
-            (antifragile)
+            (anti-fragile)
           </a>{" "}
           understanding. All in the name of hopefully building a career and life
           we can be proud of.
@@ -102,50 +101,68 @@ export default function Home() {
           finding, exploring (and implementing) better ways of educating
           ourselves than what schools or colleges offer.
         </p>
+        <hr className="my-1 h-[0.5px] w-full place-self-center border-0 bg-black" />
+        <p className="font-semibold">How is the community structured?</p>
+        <ul className="list-inside list-disc">
+          <li>
+            Open discord server for anybody to join with limited channels and
+            access. Folks can keep up with the latest happenings or ask
+            questions they have.
+          </li>
+          <li>
+            Inner community with full access - for which you will have to{" "}
+            <Link href="/apply">apply</Link>. This is done to ensure that you
+            share the values of the community and would be a right fit to
+            participate and contribute.
+          </li>
+          <li>
+            The criteria for selection is just that you are keen to learn, build
+            meaningful things and bring a unique perspective to the community.
+            If you feel you haven&rsquo;t done anything before - please
+            don&rsquo;t feel hesitant to apply as long as you are excited about
+            the community and want to contribute.
+          </li>
+          <li>
+            There are many things yet to be figured out and explored. So right
+            now our hope and aim is to find core people who can contribute in
+            building and taking the community forward.
+          </li>
+        </ul>
       </div>
 
-      <div className="flex w-full flex-row justify-between pt-8 font-head font-semibold">
+      <div className="flex w-full flex-col flex-wrap gap-4 pt-8 font-head font-semibold sm:justify-between md:flex-row ">
         <Link
           href="/year-zero"
-          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
         >
-          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black md:text-lg">
             {" "}
             Year Zero{" "}
           </button>
         </Link>
         <Link
           href="/apply"
-          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
         >
-          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
             {" "}
             Apply{" "}
           </button>
         </Link>
         <Link
-          href="/faq"
-          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
-        >
-          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
-            {" "}
-            FAQ{" "}
-          </button>
-        </Link>
-        <Link
           href="/discord"
-          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
         >
-          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
             {" "}
             Discord{" "}
           </button>
         </Link>
         <Link
           href="/twitter"
-          className="hover:no-italic text-black no-underline hover:text-black hover:no-underline"
+          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
         >
-          <button className="rounded-sm border-2 border-black bg-white px-8 py-1 text-lg hover:bg-gray-200">
+          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
             {" "}
             Twitter{" "}
           </button>
