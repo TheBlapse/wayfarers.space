@@ -16,6 +16,11 @@ const nextConfig = {
         destination: "https://twitter.com/WayfarersSpace",
         permanent: true,
       },
+      {
+        source: "/apply",
+        destination: "https://tally.so/r/n07dVB",
+        permanent: true,
+      },
     ];
   },
 };
