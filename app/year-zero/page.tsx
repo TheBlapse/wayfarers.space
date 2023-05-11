@@ -10,9 +10,14 @@ function getLastUpdatedDate(): string {
 export default function page() {
   return (
     <main className="align-center flex min-h-screen flex-col content-center items-center gap-4 py-8">
-      <div className="self-start pl-8 font-mono font-semibold md:pl-16">
-        Last Updated: {getLastUpdatedDate()}
+      <div className="self-start pl-8 font-mono  md:pl-16">
+        <span className="font-semibold">Last Updated:</span>{" "}
+        {getLastUpdatedDate()}
       </div>
+      <div className=" align-center mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 text-center font-head text-2xl font-[600] md:w-[75vw] md:text-3xl lg:w-[60vw] ">
+        Year Zero &mdash; the Manifesto
+      </div>
+
       <div className=" mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 font-serif text-lg font-[460] md:w-[75vw] lg:w-[60vw] ">
         <p>
           Imagine tomorrow that you opened your eyes and found yourself in a
@@ -390,45 +395,44 @@ export default function page() {
           dream about tomorrow and start today. Let&rsquo;s try.
         </p>
         <div className="flex w-full flex-col flex-wrap gap-4 pt-8 font-head font-semibold sm:justify-between md:flex-row ">
-        <Link
-          href="/"
-          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-        >
-          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black md:text-lg">
-            {" "}
-            Home{" "}
-          </button>
-        </Link>
-        <Link
-          href="/apply"
-          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-        >
-          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
-            {" "}
-            Apply{" "}
-          </button>
-        </Link>
-        <Link
-          href="/discord"
-          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-        >
-          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
-            {" "}
-            Discord{" "}
-          </button>
-        </Link>
-        <Link
-          href="/twitter"
-          className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-        >
-          <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
-            {" "}
-            Twitter{" "}
-          </button>
-        </Link>
+          <Link
+            href="/"
+            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+          >
+            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black md:text-lg">
+              {" "}
+              Home{" "}
+            </button>
+          </Link>
+          <Link
+            href="/apply"
+            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+          >
+            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
+              {" "}
+              Apply{" "}
+            </button>
+          </Link>
+          <Link
+            href="/discord"
+            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+          >
+            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
+              {" "}
+              Discord{" "}
+            </button>
+          </Link>
+          <Link
+            href="/twitter"
+            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
+          >
+            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
+              {" "}
+              Twitter{" "}
+            </button>
+          </Link>
+        </div>
       </div>
-      </div>
-
     </main>
   );
 }
