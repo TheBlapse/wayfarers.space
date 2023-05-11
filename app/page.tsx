@@ -3,14 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="mx-auto flex min-h-screen flex-col items-center">
-      <div className="relative mx-auto flex h-[30vh] w-full flex-col items-center overflow-hidden ">
-        <Image
-          src="/images/cover.png"
-          className="object-cover"
-          alt="cover"
-          fill={true}
-        />
-      </div>
       <div className="mx-auto w-[90vw] max-w-2xl  py-8 md:w-[75vw] lg:w-[60vw]">
         <div className="container flex flex-col gap-2 pb-8">
           <h1 className="mt-0 font-head text-2xl font-bold leading-tight text-black md:text-3xl">
