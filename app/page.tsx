@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="mx-auto flex min-h-screen flex-col items-center">
-      <div className="mx-auto w-[90vw] max-w-2xl  py-8 md:w-[75vw] lg:w-[60vw]">
+      <div className="mx-auto w-[90vw] max-w-2xl  py-14 md:w-[75vw] lg:w-[60vw]">
         <div className="container flex flex-col gap-2 pb-8">
           <h1 className="mt-0 font-head text-2xl font-bold leading-tight text-black md:text-3xl">
-            Let&rsquo;s build computers? Or rockets? Or games? together
+            computers? rockets? games? let&rsquo;s build together
           </h1>
           <figure className=" text-black">
             <blockquote className="font-serif text-sm font-[425] italic leading-tight md:text-base">
@@ -40,7 +40,7 @@ export default function Home() {
           </ul>
 
           <p>
-            Welcome to Wayfarers&lsquo; Space! We were thinking about how cool
+            Welcome to Wayfarers&rsquo; Space! We were thinking about how cool
             it would be to have a small community, a group of friends who could
             work together on ideas, create awesome things and support each in
             getting educated in the most adventurous (and audacious) way
@@ -120,9 +120,11 @@ export default function Home() {
             </li>
             <li>
               Inner community with full access - for which you will have to{" "}
-              <Link href="/apply">apply</Link>. This is done to ensure that you
-              share the values of the community and would be a right fit to
-              participate and contribute.
+              <a target="_blank" href="/apply">
+                apply
+              </a>
+              . This is done to ensure that you share the values of the
+              community and would be a right fit to participate and contribute.
             </li>
             <li>
               The criteria for selection is just that you are keen to learn,

@@ -1,9 +1,5 @@
 import "./globals.css";
-import {
-  Cormorant,
-  EB_Garamond,
-  Ibarra_Real_Nova,
-} from "next/font/google";
+import { Cormorant, Ibarra_Real_Nova } from "next/font/google";
 import Script from "next/script";
 
 const cormorant = Cormorant({
@@ -14,11 +10,6 @@ const cormorant = Cormorant({
 const ibarra_real_nova = Ibarra_Real_Nova({
   subsets: ["latin"],
   variable: "--font-ibarra-real-nova",
-});
-
-const eb_garamond = EB_Garamond({
-  subsets: ["latin"],
-  variable: "--font-eb-garamond",
 });
 
 
@@ -38,7 +29,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${ibarra_real_nova.variable}`}
+      className={`${cormorant.variable}  ${ibarra_real_nova.variable}`}
     >
       <body>{children}</body>
       <Script
