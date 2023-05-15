@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 export default function Home() {
   return (
     <main className="mx-auto flex min-h-screen flex-col items-center">
@@ -110,6 +109,16 @@ export default function Home() {
             finding, exploring (and implementing) better ways of educating
             ourselves than what schools or colleges offer.
           </p>
+          <p>At last here&rsquo;s our playlist to the new beginnings.</p>
+          <iframe
+            src="https://open.spotify.com/embed/playlist/1A7QoozpmxKCrZZpx7iWDT?utm_source=generator"
+            width="100%"
+            height="512"
+            allowFullScreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            className="rounded-sm"
+          ></iframe>
           <hr className="my-1 h-[0.5px] w-full place-self-center border-0 bg-black" />
           <p className="font-semibold">How is the community structured?</p>
           <ul className="list-inside list-disc">
