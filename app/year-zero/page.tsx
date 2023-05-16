@@ -110,7 +110,7 @@ export default function page() {
         </p>
         <p>
           It&rsquo;s important to acknowledge that our current understanding and
-          imagination of what constitutes the &lsduo;perfect&rsduo; education
+          imagination of what constitutes the &lsquo;perfect&rsquo; education
           system may be limited by our present knowledge and experiences. Just
           as people in the 16th century could not have imagined motor cars as a
           means of transportation, we may not be able to fully envision the best
