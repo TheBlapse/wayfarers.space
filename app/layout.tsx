@@ -35,7 +35,7 @@ export default function RootLayout({
       <Script
         async
         src="https://umami.theblapse.me/script.js"
-        data-website-id="ca81da90-abde-477a-8df1-8131b22ae1a8"
+        data-website-id="3500e8cc-42f9-474c-8e56-666fc0623a17"
       />
     </html>
   );
