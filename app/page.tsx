@@ -39,7 +39,7 @@ export default function Home() {
           </ul>
 
           <p>
-            Welcome to Wayfarers&rsquo; Space! We were thinking about how cool
+            Welcome to Wayfarers Space! We were thinking about how cool
             it would be to have a small community, a group of friends who could
             work together on ideas, create awesome things and support each in
             getting educated in the most adventurous (and audacious) way
