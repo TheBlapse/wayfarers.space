@@ -10,13 +10,24 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        head: ["var(--font-cormorant)"],
-        serif: ["var(--font-ibarra-real-nova)"],
+      colors: {
+        // dark mode
+        darkdark: "#0A0A0A",
+        darklight: "#F2F2F2",
+        darkheading: "#BFBFBF",
+        darktext: "#8C8C8C",
+        darkhighlight: "#191919",
+        // light mode
+        lightdark: "#121212",
+        lightlight: "#EDEDED",
+        lightheading: "#EDEDED",
+        lighttext: "#333333",
+        lightheading: "#CCCCCC",
       },
-      // listStyleImage: {
-      //   dash: 'url("/images/dash.svg")',
-      // },
+      fontFamily: {
+        head: ["var(--font-cardo)"],
+        serif: ["var(--font-bellefair)"],
+      },
     },
   },
   plugins: [],
