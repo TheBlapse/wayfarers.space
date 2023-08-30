@@ -15,7 +15,7 @@ export default function page() {
         <span> Archived</span> {/* {getLastUpdatedDate()} */}
       </div>
       <div className=" align-center mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 text-center font-head text-2xl font-[600] md:w-[75vw] md:text-3xl lg:w-[60vw] ">
-        Year Zero &mdash; the Manifesto
+        The Manifesto
       </div>
 
       <div className=" mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 font-serif text-lg font-[460] md:w-[75vw] lg:w-[60vw] ">
