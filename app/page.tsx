@@ -10,7 +10,7 @@ export default function Home() {
           <p className="font-serif text-base md:text-xl text-darktext">
             We are a community of autodidacts and dropouts creating an
             alternative and better environment for ourselves, one that the
-            conventional route lacks. We aim to support each other in getting
+            conventional school system should have provided, but didn&rsquo;t. We aim to support each other in getting
             educated in the most adventurous and audacious way possible by
             undertaking the most ambitious goals.
           </p>
@@ -23,6 +23,9 @@ export default function Home() {
             height={814}
           />
         </div>
+      </div>
+      <div>
+
       </div>
     </main>
   );

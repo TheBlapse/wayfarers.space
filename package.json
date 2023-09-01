@@ -11,6 +11,7 @@
   "dependencies": {
     "@fontsource/cardo": "^4.5.9",
     "@fontsource/cormorant-garamond": "^4.5.10",
+    "@headlessui/react": "^1.7.17",
     "@types/node": "18.15.11",
     "@types/react": "18.0.34",
     "@types/react-dom": "18.0.11",
@@ -29,7 +30,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "prettier": "2.8.8",
-    "prettier-plugin-tailwindcss": "^0.5.3"
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4"
   }
 }

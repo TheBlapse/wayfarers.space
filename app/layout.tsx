@@ -17,7 +17,7 @@ const bellefair = Bellefair({
 export const metadata = {
   title: "Wayfarers Space",
   description:
-    "A community of unconventionalists, autodidacts, and dropouts to support one another in the process of getting educated in the most adventurous and audacious way possible by undertaking the most crazy goals. We believe to change the world, one should first understand it well enough.",
+    "We are a community of autodidacts and dropouts creating an alternative and better environment for ourselves, one that the conventional school system should have provided, but didn&rsquo;t. We aim to support each other in getting educated in the most adventurous and audacious way possible by cundertaking the most ambitious goals.",
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#121212",
 };
