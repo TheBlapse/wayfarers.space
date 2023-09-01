@@ -4,9 +4,9 @@ import Image from "next/image";
 import { ArrowDownRight } from "lucide-react";
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center bg-darkdark">
+    <main className="flex flex-col min-h-screen overflow-x-none items-center bg-darkdark">
       <div className="flex h-screen flex-col md:flex-row items-center justify-center">
-        <div className="flex h-screen justify-center md:h-auto mr-0 md:-mr-44 md:w-[720px] flex-col gap-4 bg-darkdark backdrop-blur-sm bg-opacity-5 p-6 md:p-12">
+        <div className="flex justify-center md:h-auto mr-0 md:-mr-44 md:w-[720px] flex-col gap-4 bg-darkdark backdrop-blur-sm bg-opacity-5 px-6 md:p-12">
           <h1 className="font-head text-4xl md:text-6xl text-white">
             Wayfarers Space
           </h1>
@@ -19,7 +19,7 @@ export default function Home() {
             ambitious goals.
           </p>
         </div>
-        <div className="-mt-40 md:mt-0 w-[300px] md:w-[600px]">
+        <div className="md:mt-0 w-[300px] md:w-[600px]">
           <Image
             src="/images/landing.png"
             alt="Landing"
@@ -28,7 +28,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex max-w-3xl gap-10 flex-col items-center">
+      <div className="mx-6 md:mx-0 flex max-w-3xl gap-12 flex-col items-center">
         <div className="relative flex-col items-center justify-center">
           <h1 className="font-head italic text-xl md:text-2xl text-darkheading">
             Rethinking Education: Building a New Path from First Principles
@@ -78,9 +78,8 @@ export default function Home() {
             About us
           </h1>
           <p className="font-serif text-lg md:text-xl text-darktext">
-            We&rsquo;re friends not following the conventional route of
-            education and learning our own. In the past we&rsquo;ve built
-            software, communities and worked at companies.
+            We&rsquo;re a group of friends from India. In the past we&rsquo;ve
+            built software, community and worked at companies.
           </p>
         </div>
         <div className="relative flex-col items-center justify-center">
