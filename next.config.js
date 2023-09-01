@@ -17,6 +17,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/x",
+        destination: "https://x.com/WayfarersSpace",
+        permanent: true,
+      },
+      {
         source: "/apply",
         destination: "https://tally.so/r/n07dVB",
         permanent: true,
