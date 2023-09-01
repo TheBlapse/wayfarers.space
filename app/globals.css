@@ -5,7 +5,7 @@
   html,
   body {
     background-color: #fafafa;
-    border-top: 2px solid black;
+    border-top: 2px solid #0A0A0A;
   }
 }
 .text-shadow {
