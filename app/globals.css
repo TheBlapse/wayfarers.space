@@ -5,27 +5,13 @@
   html,
   body {
     background-color: #fafafa;
-    border-top: 2px solid #0A0A0A;
+    border-top: 2px solid #0a0a0a;
   }
 }
 .text-shadow {
   text-shadow: 0px 2px 10px rgba(247, 247, 247, 0.5);
 }
-a {
-  text-decoration: underline;
-  color: hsl(240, 100%, 47%);
-  text-decoration-color: hsl(240, 100%, 47%);
-}
-a:hover,
-a:visited:hover {
-  font-style: italic;
-  color: hsl(210, 100%, 70%);
-  text-decoration-color: hsl(210, 100%, 70%);
-}
-a:visited {
-  color: hsl(271, 68%, 32%);
-  text-decoration-color: hsl(271, 68%, 32%);
-}
+
 .ml7 {
   position: relative;
 }

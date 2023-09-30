@@ -9,12 +9,12 @@ function getLastUpdatedDate(): string {
 
 export default function page() {
   return (
-    <main className="align-center flex min-h-screen flex-col content-center items-center gap-4 py-8">
+    <main className="align-center flex min-h-screen bg-darkdark text-darkheading flex-col content-center items-center gap-4 py-8">
       <div className="self-start pl-8 font-mono  md:pl-16">
         <span className="font-semibold line-through">Last Updated</span>:{" "}
         <span> Archived</span> {/* {getLastUpdatedDate()} */}
       </div>
-      <div className=" align-center mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 text-center font-head text-2xl font-[600] md:w-[75vw] md:text-3xl lg:w-[60vw] ">
+      <div className=" align-center text-darklight mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 text-center font-head text-2xl font-[600] md:w-[75vw] md:text-3xl lg:w-[60vw] ">
         The Manifesto
       </div>
 
@@ -353,10 +353,6 @@ export default function page() {
           contribute to LLVM or make new architectures of compilers?
         </p>
         <p>
-          Learning music? Why not try to make new-gen music and compete with
-          Rick Rubin?
-        </p>
-        <p>
           It&lsquo;s hard, yes &mdash; sometimes, maybe even not possible. But
           embarking on such a project and committing to it will yield a much
           greater learning curve than reading books and thinking, you know,
@@ -394,44 +390,6 @@ export default function page() {
           here, and this is our playground. Can we build this? Let&rsquo;s not
           dream about tomorrow and start today. Let&rsquo;s try.
         </p>
-        <div className="flex w-full flex-col flex-wrap gap-4 pt-8 font-head font-semibold sm:justify-between md:flex-row ">
-          <Link
-            href="/"
-            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-          >
-            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black md:text-lg">
-              {" "}
-              Home{" "}
-            </button>
-          </Link>
-          <Link
-            href="/apply"
-            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-          >
-            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
-              {" "}
-              Apply{" "}
-            </button>
-          </Link>
-          <Link
-            href="/discord"
-            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-          >
-            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
-              {" "}
-              Discord{" "}
-            </button>
-          </Link>
-          <Link
-            href="/twitter"
-            className="hover:no-italic text-black no-underline hover:text-[#fafafa] hover:no-underline"
-          >
-            <button className="rounded-sm border-2 border-black bg-[#fafafa] px-8 py-1 text-base hover:bg-black  hover:text-[#fafafa] md:text-lg">
-              {" "}
-              Twitter{" "}
-            </button>
-          </Link>
-        </div>
       </div>
     </main>
   );

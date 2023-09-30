@@ -3,6 +3,9 @@ import "./globals.css";
 import { Bellefair, Cardo } from "next/font/google";
 import Script from "next/script";
 
+import Navigation from "./components/navigation";
+import Footer from "./components/footer";
+
 const cardo = Cardo({
   subsets: ["latin"],
   variable: "--font-cardo",
@@ -30,7 +33,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
-      <body>{children}</body>
+      <body className="w-full h-full">
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

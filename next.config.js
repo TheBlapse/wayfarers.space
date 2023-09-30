@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   productionBrowserSourceMaps: true,
   async redirects() {
     return [
@@ -20,6 +17,11 @@ const nextConfig = {
         source: "/x",
         destination: "https://x.com/WayfarersSpace",
         permanent: true,
+      },
+      {
+        source: "/github",
+        destination: "https://github.com/theblapse/wayfarers.space",
+        permanent: false,
       },
       {
         source: "/apply",
