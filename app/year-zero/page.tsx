@@ -14,7 +14,7 @@ export default function Page() {
             </span>
           </h1>
           <p className="font-serif text-md md:text-lg xl:text-xl text-darktext">
-            An annual roundtable for autodidacts, and dropouts organized by
+            An annual round table for autodidacts, and dropouts organized by
             wayfarers space to come together to discuss &ldquo;how to make the
             future look like the future&rdquo; and &ldquo;understand the
             world&rdquo; audaciously by undertaking a path different than that
@@ -23,7 +23,7 @@ export default function Page() {
         </div>
         <div className="flex flex-col gap-3 text-md md:text-lg xl:text-xl">
           <h2 className=" text-darkheading2 font-head">
-            Join us for our first round-table event.
+            Join us for our first round table event.
           </h2>
           <div className="flex flex-col gap-2 font-serif text-darktext ">
             <div className="flex flex-row gap-2 items-center">
@@ -53,14 +53,15 @@ export default function Page() {
                   />
                 </svg>
               </span>
-              Join Discord for updates
+              Join <span className="underline hover:opacity-70">Discord</span>{" "}
+              for updates
             </Link>
           </div>
         </div>
       </div>
       <div className="w-full flex min-h-screen flex-col items-center justify-center gap-y-8 px-6 sm:px-24 md:px-12 xl:px-0 max-w-5xl">
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               What is the event
             </h2>
@@ -71,7 +72,7 @@ export default function Page() {
               people.
             </p>
           </div>
-          <div className="flex gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               What is &ldquo;Year Zero&rdquo;
             </h2>
@@ -84,17 +85,17 @@ export default function Page() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               Who are we
             </h2>
             <p className="font-serif text-darktext text-lg md:text-xl">
               We are unschoolers, dropouts and autodidacts passionate about
-              technology and the world - based in India. We have people working
-              in deep learning, hardware, biotech, software and design.
+              technology and the world. We have people working in deep learning,
+              hardware, biotech, software and design.
             </p>
           </div>
-          <div className="flex gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               Our long term goals
             </h2>

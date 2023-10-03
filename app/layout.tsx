@@ -5,6 +5,7 @@ import Script from "next/script";
 
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
+import Announcement from "./components/announcement";
 
 const cardo = Cardo({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
       <link rel="icon" href="/images/favicon.png" sizes="any" />
       <body className="w-full h-full">
+        <Announcement />
         <Navigation />
         {children}
         <Footer />

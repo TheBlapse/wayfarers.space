@@ -80,7 +80,7 @@ const Footer = () => {
             href="/year-zero"
             className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
           >
-            Year Zero (TBA)
+            Year Zero
           </Link>
           <Link
             href="/manifesto"
@@ -94,10 +94,10 @@ const Footer = () => {
             Contact
           </span>
           <Link
-            href="mailto:badal@degreeless.engineer"
+            href="mailto:hi@wayfarers.space"
             className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
           >
-            badal@degreeless.engineer
+            hi@wayfarers.space
           </Link>
         </div>
       </div>
