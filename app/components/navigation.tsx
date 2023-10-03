@@ -59,7 +59,7 @@ const BottomStickyNavbar = () => {
   return (
     <nav
       className={
-        "z-40 max-w-md md:max-w-2xl w-screen bg-white bg-opacity-[7%] bottom-[0.8rem] backdrop-blur-[8px] rounded-full fixed left-1/2 transform -translate-x-1/2"
+        "z-40 max-w-md w-10/12 md:max-w-2xl md:w-screen bg-white bg-opacity-[7%] backdrop-blur-[8px] rounded-full fixed items-center bottom-0 mb-3 left-1/2 transform -translate-x-1/2"
       }
     >
       <div className="w-full flex flex-wrap items-center justify-between px-10 py-1 md:py-2 ">
@@ -92,7 +92,7 @@ const BottomStickyNavbar = () => {
             onWheel={preventScroll}
             onTouchMove={preventScroll}
             style={{ overflow: "hidden" }}
-            className="z-[55] scroll-m-0 md:hidden fixed  left-0 -bottom-[0.8rem] bg-darkdark bg-opacity-100 overflow-hidden backdrop-opacity-50 backdrop-blur-xl h-screen w-screen flex flex-col justify-center text-md items-center gap-8 py-16 text-darkheading2 font-head"
+            className="z-[55] scroll-m-0 md:hidden fixed -bottom-[0.8rem] left-1/2 transform -translate-x-1/2 bg-darkdark bg-opacity-100 overflow-hidden backdrop-opacity-50 backdrop-blur-xl h-screen w-screen flex flex-col justify-center text-md items-center gap-8 py-16 text-darkheading2 font-head"
           >
             <button
               className="hover:opacity-70 self-end self-start-end mr-8 focus:outline-none"

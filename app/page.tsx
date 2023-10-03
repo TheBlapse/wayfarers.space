@@ -1,7 +1,6 @@
 "use client";
 // pasting starts here
 import Image from "next/image";
-import { ArrowDownRight } from "lucide-react";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -19,6 +18,12 @@ export default function Home() {
             adventurous and audacious way possible by undertaking the most
             ambitious goals.
           </p>
+          <Link
+            href="/apply"
+            className="cursor-pointer hover:opacity-70 py-1 px-8 text-base font-serif text-darkheading2 bg-white bg-opacity-[14%] rounded-sm w-fit md:text-md xl:text-xl"
+          >
+            Apply to Join
+          </Link>
         </div>
         <div className="md:mt-0 w-[300px] md:w-[450px] xl:w-[600px]">
           <Image
