@@ -33,6 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
+      <link rel="icon" href="/images/favicon.png" sizes="any" />
       <body className="w-full h-full">
         <Navigation />
         {children}

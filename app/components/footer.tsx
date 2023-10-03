@@ -2,16 +2,16 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="z-50  h-full overflow-x-hidden min-h-screen md:min-h-full max-w-screen bg-darkdark md:mx-0 flex  gap-12 flex-col items-center justify-start md:justify-evenly">
+    <footer className="z-50 h-full overflow-x-hidden min-h-screen md:min-h-full max-w-screen bg-darkdark md:mx-0 flex gap-12 flex-col items-center justify-start md:justify-evenly">
       <div className="max-w-3xl z-50 border-t-2 border-t-darkhighlight bg-darkdark relative py-16 md:py-12 px-6 gap-y-8 md:gap-0 md:px-0 w-full flex flex-col md:flex-row justify-start  md:justify-between">
         <div className="flex flex-col">
-          <span className="flex flex-col text-darkheading font-serif text-2xl">
+          <span className="flex flex-col text-darkheading2 font-serif text-2xl">
             Wayfarers Space
           </span>
           <div className="flex flex-row gap-4 py-2 items-center">
             <Link
               href="/x"
-              className="text-darkheading font-serif hover:opacity-70  text-lg md:text-xl"
+              className="text-darkheading2 font-serif hover:opacity-70  text-lg md:text-xl"
             >
               <svg
                 height="21"
@@ -27,7 +27,7 @@ const Footer = () => {
             </Link>
             <Link
               href="/discord"
-              className="text-darkheading font-serif hover:opacity-70 text-lg md:text-xl"
+              className="text-darkheading2 font-serif hover:opacity-70 text-lg md:text-xl"
             >
               <svg
                 height="21"
@@ -43,7 +43,7 @@ const Footer = () => {
             </Link>{" "}
             <Link
               href="/github"
-              className="text-darkheading font-serif hover:opacity-70 text-lg md:text-xl"
+              className="text-darkheading2 font-serif hover:opacity-70 text-lg md:text-xl"
             >
               <svg
                 height="21"
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-1">
-          <span className="text-darkheading font-serif text-xl md:text-2xl">
+          <span className="text-darkheading2 font-serif text-xl md:text-2xl">
             Navigate
           </span>
           <Link
@@ -90,7 +90,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex flex-col">
-          <span className="text-darkheading font-serif text-xl md:text-2xl">
+          <span className="text-darkheading2 font-serif text-xl md:text-2xl">
             Contact
           </span>
           <Link

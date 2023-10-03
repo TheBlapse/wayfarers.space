@@ -9,7 +9,7 @@ function getLastUpdatedDate(): string {
 
 export default function page() {
   return (
-    <main className="align-center flex min-h-screen bg-darkdark text-darkheading flex-col content-center items-center gap-4 py-8">
+    <main className="align-center flex min-h-screen bg-darkdark text-darkheading2 flex-col content-center items-center gap-4 py-8">
       <div className="self-start pl-8 font-mono  md:pl-16">
         <span className="font-semibold line-through">Last Updated</span>:{" "}
         <span> Archived</span> {/* {getLastUpdatedDate()} */}

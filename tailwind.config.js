@@ -14,7 +14,8 @@ module.exports = {
         // dark mode
         darkdark: "#0A0A0A",
         darklight: "#F2F2F2",
-        darkheading: "#BFBFBF",
+        darkheading: "#E6E6E6",
+        darkheading2: "#BFBFBF",
         darktext: "#8C8C8C",
         darkhighlight: "#191919",
         // light mode
@@ -30,5 +31,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 };
