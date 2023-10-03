@@ -61,7 +61,7 @@ export default function Page() {
       </div>
       <div className="w-full flex min-h-screen flex-col items-center justify-center gap-y-8 px-6 sm:px-24 md:px-12 xl:px-0 max-w-5xl">
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight border border-transparent hover:border hover:border-darktext">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               What is the event
             </h2>
@@ -72,7 +72,7 @@ export default function Page() {
               people.
             </p>
           </div>
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight border border-transparent hover:border hover:border-darktext">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               What is &ldquo;Year Zero&rdquo;
             </h2>
@@ -85,7 +85,7 @@ export default function Page() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight border border-transparent hover:border hover:border-darktext ">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               Who are we
             </h2>
@@ -95,7 +95,7 @@ export default function Page() {
               hardware, biotech, software and design.
             </p>
           </div>
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight hover:shadow-[0px_10px_30px_5px_rgba(255,255,255,0.15)]">
+          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight  border border-transparent hover:border hover:border-darktext">
             <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
               Our long term goals
             </h2>
