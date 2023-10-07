@@ -15,10 +15,10 @@ export default function Page() {
           </h1>
           <p className="font-serif text-md md:text-lg xl:text-xl text-darktext">
             An annual round table for autodidacts, and dropouts organized by
-            wayfarers space to come together to discuss &ldquo;how to make the
-            future look like the future&rdquo; and &ldquo;understand the
-            world&rdquo; audaciously by undertaking a path different than that
-            of traditional route of schools.
+            wayfarers space to come together to discuss how to make the future
+            look like the future and understand the world audaciously by
+            undertaking a path different than that of traditional route of
+            schools.
           </p>
         </div>
         <div className="flex flex-col gap-3 text-md md:text-lg xl:text-xl">
@@ -111,3 +111,16 @@ export default function Page() {
     </main>
   );
 }
+
+const LearnMore = ({ link }: { link: string }) => {
+  return (
+    <div className="flex flex-row gap-2 items-center">
+      <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
+        <ArrowDownRight color="#8C8C8C" size="16" />
+      </span>
+      <Link href={link} className="flex flex-row gap-2 items-center">
+        Learn more
+      </Link>
+    </div>
+  );
+};

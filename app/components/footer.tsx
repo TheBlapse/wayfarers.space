@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="z-50 h-full overflow-x-hidden min-h-screen md:min-h-full max-w-screen bg-darkdark md:mx-0 flex gap-12 flex-col items-center justify-start md:justify-evenly">
       <div className="max-w-3xl z-50 border-t-2 border-t-darkhighlight bg-darkdark relative py-16 md:py-12 px-6 gap-y-8 md:gap-0 md:px-0 w-full flex flex-col md:flex-row justify-start  md:justify-between">
         <div className="flex flex-col">
-          <span className="flex flex-col text-darkheading2 font-serif text-2xl">
+          <span className="flex flex-col text-darkheading2 font-serif text-xl md:text-2xl">
             Wayfarers Space
           </span>
           <div className="flex flex-row gap-4 py-2 items-center">
@@ -17,6 +17,7 @@ const Footer = () => {
                 height="21"
                 viewBox="0 0 20 21"
                 fill="none"
+                className="md:h-auto md:w-auto h-4 w-4"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -32,6 +33,7 @@ const Footer = () => {
               <svg
                 height="21"
                 viewBox="0 0 21 16"
+                className="md:h-auto md:w-auto h-4 w-4"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -40,7 +42,7 @@ const Footer = () => {
                   fill="#8C8C8C"
                 />
               </svg>
-            </Link>{" "}
+            </Link>
             <Link
               href="/github"
               className="text-darkheading2 font-serif hover:opacity-70 text-lg md:text-xl"
@@ -49,6 +51,7 @@ const Footer = () => {
                 height="21"
                 aria-hidden="true"
                 viewBox="0 0 16 16"
+                className="md:h-auto md:w-auto h-4 w-4"
                 version="1.1"
                 data-view-component="true"
               >

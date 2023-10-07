@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen overflow-x-hidden items-center bg-darkdark">
-      <div className="flex h-screen flex-col md:flex-row items-center justify-center">
+      <div className="mt-24 md:mt-0 flex min-h-screen flex-col md:flex-row items-center justify-center">
         <div className="flex justify-center md:h-auto mr-0 md:-mr-44 sm:[350px] xl:w-[720px] flex-col gap-4 bg-darkdark backdrop-blur-sm bg-opacity-5 px-6 md:p-12">
           <h1 className="font-head text-3xl md:text-4xl xl:text-6xl text-darkheading">
             Wayfarers Space
@@ -18,12 +18,20 @@ export default function Home() {
             adventurous and audacious way possible by undertaking the most
             ambitious goals.
           </p>
-          <Link
-            href="/apply"
-            className="cursor-pointer hover:opacity-70 py-1 px-8 text-base font-serif text-darkheading2 bg-white bg-opacity-[14%] rounded-sm w-fit md:text-md xl:text-xl"
-          >
-            Apply to Join
-          </Link>
+          <div className="flex flex-row gap-4">
+            <Link
+              href="/apply"
+              className="cursor-pointer border-2 border-transparent hover:bg-transparent hover:border-white hover:border-opacity-[14%] hover:text-darktext  py-1 px-4 md:px-10 xl:px-12 text-base font-serif text-darkheading2 bg-white bg-opacity-[14%] rounded-sm w-fit md:text-md xl:text-xl"
+            >
+              Apply to Join
+            </Link>
+            <Link
+              href="/discord"
+              className="cursor-pointer hover:bg-white hover:bg-opacity-[14%] hover:border-transparent hover:text-darkheading2 py-1 px-4 md:px-10 xl:px-12 text-base font-serif text-darktext border-white border-2 border-opacity-[14%] rounded-sm w-fit md:text-md xl:text-xl"
+            >
+              Join Discord
+            </Link>
+          </div>
         </div>
         <div className="md:mt-0 w-[300px] md:w-[450px] xl:w-[600px]">
           <Image
@@ -76,7 +84,11 @@ export default function Home() {
           <p className="font-serif text-lg md:text-xl text-darktext">
             As we&rsquo;re not following the formal path of education, we want
             to create an environment where like minded people can come together
-            to discuss and learn about important things together.
+            to discuss and learn about important things together. We are being
+            very aware and mindful of the things that (few) universities do
+            provide like network benefits, credibility to stand apart and a room
+            full of smart people. So we aim to tackle these points in a new and
+            original way, as it should be in the age of the internet.
           </p>
         </div>
         <div className="relative gap-1 flex-col items-center justify-center">
