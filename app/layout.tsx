@@ -1,11 +1,12 @@
 import "./globals.css";
 
+import PlausibleProvider from "next-plausible";
 import { Bellefair, Cardo } from "next/font/google";
 import Script from "next/script";
 
-import Navigation from "./components/navigation";
-import Footer from "./components/footer";
 import Announcement from "./components/announcement";
+import Footer from "./components/footer";
+import Navigation from "./components/navigation";
 
 const cardo = Cardo({
   subsets: ["latin"],
@@ -34,6 +35,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
+      <head>
+        <PlausibleProvider domain="example.com" />
+      </head>
       <link rel="icon" href="/images/favicon.png" sizes="any" />
       <body className="w-full h-full">
         <Announcement />
