@@ -30,7 +30,7 @@ export default function Page() {
               <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
                 <Calendar color="#8C8C8C" size="16" />
               </span>
-              Later this year
+              Early next year
             </div>
             <div className="flex flex-row gap-2 items-center">
               <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
