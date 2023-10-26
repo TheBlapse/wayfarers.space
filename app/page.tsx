@@ -21,13 +21,13 @@ export default function Home() {
           <div className="flex flex-row gap-4">
             <Link
               href="/apply"
-              className="cursor-pointer border-2 border-transparent hover:bg-transparent hover:border-white hover:border-opacity-[14%] hover:text-darktext  py-1 px-4 md:px-10 xl:px-12 text-base font-serif text-darkheading2 bg-white bg-opacity-[14%] rounded-sm w-fit md:text-md xl:text-xl"
+              className="cursor-pointer border-2 border-transparent hover:bg-transparent hover:border-white hover:border-opacity-[14%] hover:text-darktext  py-1 px-4 md:px-10 xl:px-12 text-base font-serif text-darkheading2 bg-white bg-opacity-[14%] rounded-full w-fit md:text-md xl:text-xl"
             >
               Apply to Join
             </Link>
             <Link
               href="/discord"
-              className="cursor-pointer hover:bg-white hover:bg-opacity-[14%] hover:border-transparent hover:text-darkheading2 py-1 px-4 md:px-10 xl:px-12 text-base font-serif text-darktext border-white border-2 border-opacity-[14%] rounded-sm w-fit md:text-md xl:text-xl"
+              className="cursor-pointer hover:bg-white hover:bg-opacity-[14%] hover:border-transparent hover:text-darkheading2 py-1 px-4 md:px-10 xl:px-12 text-base font-serif text-darktext border-white border-2 border-opacity-[14%] rounded-full w-fit md:text-md xl:text-xl"
             >
               Join Discord
             </Link>
