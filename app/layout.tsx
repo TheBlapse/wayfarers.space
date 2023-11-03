@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
       <head>
-        <PlausibleProvider domain="wayfarers.space" />
+        <PlausibleProvider domain="wayfarers.space" customDomain="https://anal.bad.al/js/script.js" />
       </head>
       <link rel="icon" href="/images/favicon.png" sizes="any" />
       <body className="w-full h-full">
