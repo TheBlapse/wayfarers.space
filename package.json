@@ -18,11 +18,11 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^10.16.16",
     "lucide": "^0.274.0",
     "lucide-react": "^0.274.0",
-    "next": "^13.5.3",
-    "next-plausible": "^3.11.1",
+    "next": "^13.5.6",
+    "next-plausible": "^3.12.0",
     "postcss": "8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -31,7 +31,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.4"
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.9"
   }
 }
