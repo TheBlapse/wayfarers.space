@@ -75,7 +75,7 @@ const BottomStickyNavbar = () => {
     <>
       <nav
         className={
-          "fixed bottom-0 left-1/2 z-40 mb-3 w-10/12 max-w-md -translate-x-1/2 transform items-center rounded-full bg-white bg-opacity-[7%] backdrop-blur-[8px] md:w-screen md:max-w-2xl"
+          "fixed bottom-0 left-1/2 z-40 mb-6 w-10/12 max-w-md -translate-x-1/2 transform items-center rounded-full bg-white bg-opacity-[7%] backdrop-blur-[8px] md:w-screen md:max-w-2xl"
         }
       >
         <div className="flex w-full flex-wrap items-center justify-between px-10 py-1 md:py-2 ">
