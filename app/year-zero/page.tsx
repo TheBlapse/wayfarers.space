@@ -67,26 +67,25 @@ export default function Page() {
           <p className="font-serif text-lg text-darktext md:text-xl">
             &ldquo;Year Zero&rdquo; is a gathering designed to meet and discuss
             the future and the world. Here are a few things we plan to do:
-            <ul className="ml-4 md:ml-5 mt-5 list-inside list-disc">
-              <li>
-                Roundtable discussions with subject experts, founders, and
-                interesting individuals around our theme of getting back to the
-                future, touching on topics ranging from Qualia to Quantum
-                physics.
-              </li>
-              <li>
-                Dialogues about the future of Wayfarers Space, creating labs for
-                a better environment, navigating unconventional paths, and
-                building personal communities.
-              </li>
-              <li>
-                Flâneuring — mindful strolling through cities, taking time to
-                observe and absorb the surroundings without a specific
-                destination in mind.
-              </li>
-              <li>A no-plan &ldquo;adventure&rdquo; retreat at the end.</li>
-            </ul>
           </p>
+          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+            <li>
+              Roundtable discussions with subject experts, founders, and
+              interesting individuals around our theme of getting back to the
+              future, touching on topics ranging from Qualia to Quantum physics.
+            </li>
+            <li>
+              Dialogues about the future of Wayfarers Space, creating labs for a
+              better environment, navigating unconventional paths, and building
+              personal communities.
+            </li>
+            <li>
+              Flâneuring — mindful strolling through cities, taking time to
+              observe and absorb the surroundings without a specific destination
+              in mind.
+            </li>
+            <li>A no-plan &ldquo;adventure&rdquo; retreat at the end.</li>
+          </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
           <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
@@ -115,29 +114,26 @@ export default function Page() {
           <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
             Why we are doing this
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
-            <ul className="ml-4 md:ml-5 list-inside list-disc">
-              <li>
-                To provide a social environment for like-minded individuals,
-                full of optimism and intelligence.
-              </li>
-              <li>
-                To kickstart the Wayfarers Space community in India and around
-                the world, navigating this relatively new path together.
-                Essentially, creating a “tribe” for those who plan to do bold
-                things.
-              </li>
-              <li>
-                To initiate a decade-long movement with Wayfarers Space for
-                creating better environments, specifically building the
-                technological future.
-              </li>
-              <li>
-                To gain a deeper understanding of the world, enabling us to do
-                interesting things.
-              </li>
-            </ul>
-          </p>
+          <ul className="ml-4 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+            <li>
+              To provide a social environment for like-minded individuals, full
+              of optimism and intelligence.
+            </li>
+            <li>
+              To kickstart the Wayfarers Space community in India and around the
+              world, navigating this relatively new path together. Essentially,
+              creating a “tribe” for those who plan to do bold things.
+            </li>
+            <li>
+              To initiate a decade-long movement with Wayfarers Space for
+              creating better environments, specifically building the
+              technological future.
+            </li>
+            <li>
+              To gain a deeper understanding of the world, enabling us to do
+              interesting things.
+            </li>
+          </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
           <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
@@ -147,66 +143,59 @@ export default function Page() {
             We are a group of young people from India, optimistic about
             technology and the world. Our team has people working in deep
             learning, hardware, genomics, software, and design.
-            <ul className="ml-4 md:ml-5 mt-5 list-inside list-disc">
-              <li>
-                <Link
-                  className="underline hover:decoration-dotted hover:opacity-70"
-                  href="https://matreja.me/"
-                >
-                  Aman
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="underline hover:decoration-dotted hover:opacity-70"
-                  href="https://bad.al"
-                >
-                  Badal
-                </Link>{" "}
-              </li>
-              <li>
-                <Link
-                  className="underline hover:decoration-dotted hover:opacity-70"
-                  href="https://daspartho.github.io/"
-                >
-                  Partho
-                </Link>{" "}
-              </li>
-              <li>
-                <Link
-                  className="underline hover:decoration-dotted hover:opacity-70"
-                  href="https://x.com/pranav_berry"
-                >
-                  Pranav
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="underline hover:decoration-dotted hover:opacity-70"
-                  href="https://x.com/pasricha_sehaj"
-                >
-                  Sehaj
-                </Link>
-              </li>
-            </ul>
           </p>
+
+          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+            <Link
+              className="underline hover:decoration-dotted hover:opacity-70"
+              href="https://matreja.me/"
+            >
+              <li>Aman</li>
+            </Link>
+
+            <Link
+              className="underline hover:decoration-dotted hover:opacity-70"
+              href="https://bad.al"
+            >
+              <li>Badal</li>
+            </Link>
+
+            <Link
+              className="underline hover:decoration-dotted hover:opacity-70"
+              href="https://daspartho.github.io/"
+            >
+              <li>Partho</li>
+            </Link>
+
+            <Link
+              className="underline hover:decoration-dotted hover:opacity-70"
+              href="https://x.com/pranav_berry"
+            >
+              <li>Pranav</li>
+            </Link>
+
+            <Link
+              className="underline hover:decoration-dotted hover:opacity-70"
+              href="https://x.com/pasricha_sehaj"
+            >
+              <li>Sehaj</li>
+            </Link>
+          </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
           <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
             Our long term goals
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
-            <ul className="ml-4 md:ml-5 list-inside list-disc">
-              <li>
-                To build a better environment for learning and progress than
-                traditional school systems by establishing labs worldwide.
-              </li>
-              <li>
-                To make &lsquo;Year Zero&rsquo; the go-to event for discussing
-                how to get back to the future.
-              </li>
-            </ul>
-          </p>
+          <ul className="ml-4 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+            <li>
+              To build a better environment for learning and progress than
+              traditional school systems by establishing labs worldwide.
+            </li>
+            <li>
+              To make &lsquo;Year Zero&rsquo; the go-to event for discussing how
+              to get back to the future.
+            </li>
+          </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
           <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
