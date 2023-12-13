@@ -67,7 +67,7 @@ export default function Page() {
           <p className="font-serif text-lg text-darktext md:text-xl">
             &ldquo;Year Zero&rdquo; is a gathering designed to meet and discuss
             the future and the world. Here are a few things we plan to do:
-            <ul className="mt-5 list-inside list-disc">
+            <ul className="ml-4 md:ml-5 mt-5 list-inside list-disc">
               <li>
                 Roundtable discussions with subject experts, founders, and
                 interesting individuals around our theme of getting back to the
@@ -116,7 +116,7 @@ export default function Page() {
             Why we are doing this
           </h1>
           <p className="font-serif text-lg text-darktext md:text-xl">
-            <ul className="list-inside list-disc">
+            <ul className="ml-4 md:ml-5 list-inside list-disc">
               <li>
                 To provide a social environment for like-minded individuals,
                 full of optimism and intelligence.
@@ -147,7 +147,7 @@ export default function Page() {
             We are a group of young people from India, optimistic about
             technology and the world. Our team has people working in deep
             learning, hardware, genomics, software, and design.
-            <ul className="mt-5 list-inside list-disc">
+            <ul className="ml-4 md:ml-5 mt-5 list-inside list-disc">
               <li>
                 <Link
                   className="underline hover:decoration-dotted hover:opacity-70"
@@ -196,7 +196,7 @@ export default function Page() {
             Our long term goals
           </h1>
           <p className="font-serif text-lg text-darktext md:text-xl">
-            <ul className="list-inside list-disc">
+            <ul className="ml-4 md:ml-5 list-inside list-disc">
               <li>
                 To build a better environment for learning and progress than
                 traditional school systems by establishing labs worldwide.
