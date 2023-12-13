@@ -19,8 +19,8 @@ const BottomStickyNavbar = () => {
       href: "/discord",
       text: (
         <svg
-          width="16"
-          height="16"
+          width="21"
+          height="21"
           viewBox="0 0 21 16"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -50,65 +50,91 @@ const BottomStickyNavbar = () => {
       ),
     },
   ];
-  const preventScroll = (
-    e: React.WheelEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>,
-  ) => {
-    e.preventDefault();
-  };
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const preventScroll = (e: WheelEvent | TouchEvent) => {
+      e.preventDefault();
+    };
+
+    const dropdown = dropdownRef.current;
+    if (dropdown) {
+      dropdown.addEventListener("wheel", preventScroll, { passive: false });
+      dropdown.addEventListener("touchmove", preventScroll, { passive: false });
+    }
+
+    return () => {
+      if (dropdown) {
+        dropdown.removeEventListener("wheel", preventScroll);
+        dropdown.removeEventListener("touchmove", preventScroll);
+      }
+    };
+  }, []);
 
   return (
-    <nav
-      className={
-        "z-40 max-w-md w-10/12 md:max-w-2xl md:w-screen bg-white bg-opacity-[7%] backdrop-blur-[8px] rounded-full fixed items-center bottom-0 mb-3 left-1/2 transform -translate-x-1/2"
-      }
-    >
-      <div className="w-full flex flex-wrap items-center justify-between px-10 py-1 md:py-2 ">
-        <Link
-          href="/"
-          className="flex flex-row items-center hover:opacity-70 gap-3"
-        >
-          <Image src="/images/nav-logo.png" width={36} height={36} alt="logo" />
-          <p className="text-darkheading2 font-head text-md font-medium">
-            wayfarers space
-          </p>
-        </Link>
-        <div className="hidden md:flex flex-row justify-evenly text-md items-center gap-3 text-darkheading2 font-head">
-          {navItems.map((item, index) => (
-            <Link key={index} href={item.href} className="hover:opacity-70">
-              {item.text}
-            </Link>
-          ))}
-        </div>
-        <div className="md:hidden">
-          <button
-            className="hover:opacity-70 pt-[9px] focus:outline-none"
-            onClick={() => toggleDropdown()}
+    <>
+      <nav
+        className={
+          "fixed bottom-0 left-1/2 z-40 mb-3 w-10/12 max-w-md -translate-x-1/2 transform items-center rounded-full bg-white bg-opacity-[7%] backdrop-blur-[8px] md:w-screen md:max-w-2xl"
+        }
+      >
+        <div className="flex w-full flex-wrap items-center justify-between px-10 py-1 md:py-2 ">
+          <Link
+            href="/"
+            className="flex flex-row items-center gap-3 hover:opacity-70"
           >
-            <Menu color="#BFBFBF" size={16} />
-          </button>
-        </div>
-        {isDropdownOpen && (
-          <div
-            onWheel={preventScroll}
-            onTouchMove={preventScroll}
-            style={{ overflow: "hidden" }}
-            className="z-[55] scroll-m-0 md:hidden fixed -bottom-[0.8rem] left-1/2 transform -translate-x-1/2 bg-darkdark bg-opacity-100 overflow-hidden backdrop-opacity-50 backdrop-blur-xl h-screen w-screen flex flex-col justify-center text-md items-center gap-8 py-16 text-darkheading2 font-head"
-          >
-            <button
-              className="hover:opacity-70 self-end self-start-end mr-8 focus:outline-none"
-              onClick={() => toggleDropdown()}
-            >
-              <X color="#BFBFBF" size={18} />
-            </button>
+            <Image
+              src="/images/nav-logo.png"
+              width={32}
+              height={32}
+              alt="logo"
+            />
+            <p className="text-md font-head font-medium text-darkheading2">
+              Wayfarers Space
+            </p>
+          </Link>
+          <div className="text-md hidden flex-row items-center justify-evenly gap-3 font-head text-darkheading2 md:flex">
             {navItems.map((item, index) => (
               <Link key={index} href={item.href} className="hover:opacity-70">
                 {item.text}
               </Link>
             ))}
           </div>
-        )}
-      </div>
-    </nav>
+          <div className="md:hidden">
+            <button
+              className="pt-[9px] hover:opacity-70 focus:outline-none"
+              onClick={() => toggleDropdown()}
+            >
+              <Menu color="#BFBFBF" size={16} />
+            </button>
+          </div>
+        </div>
+      </nav>
+      {isDropdownOpen && (
+        <div
+          ref={dropdownRef}
+          style={{ overflow: "hidden" }}
+          className="text-md fixed bottom-0 left-1/2 z-[55] flex h-screen w-screen -translate-x-1/2 transform scroll-m-0 flex-col items-center justify-center gap-8 overflow-hidden bg-darkdark bg-opacity-100 py-16 font-head text-darkheading2 backdrop-blur-xl backdrop-opacity-50 md:hidden"
+        >
+          <button
+            className="self-start-end mr-8 self-end hover:opacity-70 focus:outline-none"
+            onClick={() => toggleDropdown()}
+          >
+            <X color="#BFBFBF" size={18} />
+          </button>
+          {navItems.map((item, index) => (
+            <Link
+              key={index}
+              href={item.href}
+              onClick={toggleDropdown}
+              className="hover:opacity-70"
+            >
+              {item.text}
+            </Link>
+          ))}
+        </div>
+      )}
+    </>
   );
 };
 

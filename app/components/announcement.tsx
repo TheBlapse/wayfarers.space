@@ -12,20 +12,23 @@ const Announcement = () => {
   };
 
   return !close ? (
-    <div className="z-[39] w-screen flex flex-row md:flex-row top-0 justify-evenly items-center fixed py-3 md:p-1.5 bg-white bg-opacity-[7%] backdrop-blur-md">
+    <div className="fixed top-0 z-[39] flex w-screen flex-row items-center justify-evenly bg-white bg-opacity-[7%] py-3 backdrop-blur-md md:flex-row md:p-1.5">
       <X size="20" className="bg-transparent text-transparent" />
-      <div className="flex flex-col text-center md:text-left md:flex-row items-center justify-center gap-1 md:gap-4 text-darkheading2 text-sm  md:text-lg font-serif">
-        <p>Join us for our first round table in Bangalore, India</p>
+      <div className="flex flex-col items-center justify-center gap-1 text-center font-serif text-sm text-darkheading2 md:flex-row md:gap-4  md:text-left md:text-lg">
+        <p>Join us for our first roundtable in Bengaluru, India</p>
         <Link href="/year-zero">
-          <button className="flex flex-row gap-2 items-center rounded-full px-2 md:px-6 py-0.5 md:py-[0.rem] bg-white bg-opacity-[14%] hover:opacity-70 text-darkheading ">
+          <button
+            className="flex flex-row items-center gap-2 rounded-full bg-white bg-opacity-[14%] px-2 py-0.5 text-darkheading hover:opacity-70 md:px-6 md:py-[0.rem] "
+            onClick={closeHeader}
+          >
             Learn more{" "}
-            <MoveRight className="w-4 h-4 md:w-6 md:h-6" color="#BFBFBF" />
+            <MoveRight className="h-4 w-4 md:h-6 md:w-6" color="#BFBFBF" />
           </button>
         </Link>
       </div>
       <X
         onClick={closeHeader}
-        className="w-4 h-4 md:w-6 md:h-6 self-start mt-0.5 md:self-auto md:mr-0 cursor-pointer"
+        className="mt-0.5 h-4 w-4 cursor-pointer self-start md:mr-0 md:h-6 md:w-6 md:self-auto"
         color="#BFBFBF"
       />
     </div>

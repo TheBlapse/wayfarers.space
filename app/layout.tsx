@@ -36,10 +36,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
       <head>
-        <PlausibleProvider domain="wayfarers.space" customDomain="https://anal.bad.al" selfHosted={true}	/>
+        <PlausibleProvider
+          domain="wayfarers.space"
+          customDomain="https://anal.bad.al"
+          selfHosted={true}
+        />
       </head>
       <link rel="icon" href="/images/favicon.png" sizes="any" />
-      <body className="w-full h-full">
+      <body suppressHydrationWarning={true}>
         <Announcement />
         <Navigation />
         {children}

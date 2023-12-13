@@ -2,22 +2,22 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="z-50 h-full overflow-x-hidden min-h-screen md:min-h-full max-w-screen bg-darkdark md:mx-0 flex gap-12 flex-col items-center justify-start md:justify-evenly">
-      <div className="max-w-3xl z-50 border-t-2 border-t-darkhighlight bg-darkdark relative py-16 md:py-12 px-6 gap-y-8 md:gap-0 md:px-0 w-full flex flex-col md:flex-row justify-start  md:justify-between">
+    <footer className="max-w-screen z-50 flex h-full min-h-full flex-col items-center justify-start gap-12 overflow-x-hidden bg-darkdark md:mx-0 md:justify-evenly">
+      <div className="relative z-50 flex w-full max-w-3xl flex-col justify-start gap-y-8 border-t-2 border-t-darkhighlight bg-darkdark px-6 py-16 md:flex-row md:justify-between md:gap-0 md:px-0  md:py-12">
         <div className="flex flex-col">
-          <span className="flex flex-col text-darkheading2 font-serif text-xl md:text-2xl">
+          <span className="flex flex-col font-serif text-xl text-darkheading2 md:text-2xl">
             Wayfarers Space
           </span>
-          <div className="flex flex-row gap-4 py-2 items-center">
+          <div className="flex flex-row items-center gap-4 py-2">
             <Link
               href="/x"
-              className="text-darkheading2 font-serif hover:opacity-70  text-lg md:text-xl"
+              className="font-serif text-lg text-darkheading2  hover:opacity-70 md:text-xl"
             >
               <svg
                 height="21"
                 viewBox="0 0 20 21"
                 fill="none"
-                className="md:h-auto md:w-auto h-4 w-4"
+                className="h-4 w-4 md:h-auto md:w-auto"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -28,12 +28,12 @@ const Footer = () => {
             </Link>
             <Link
               href="/discord"
-              className="text-darkheading2 font-serif hover:opacity-70 text-lg md:text-xl"
+              className="font-serif text-lg text-darkheading2 hover:opacity-70 md:text-xl"
             >
               <svg
                 height="21"
                 viewBox="0 0 21 16"
-                className="md:h-auto md:w-auto h-4 w-4"
+                className="h-5 w-5 md:h-auto md:w-auto"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -45,13 +45,13 @@ const Footer = () => {
             </Link>
             <Link
               href="/github"
-              className="text-darkheading2 font-serif hover:opacity-70 text-lg md:text-xl"
+              className="font-serif text-lg text-darkheading2 hover:opacity-70 md:text-xl"
             >
               <svg
                 height="21"
                 aria-hidden="true"
                 viewBox="0 0 16 16"
-                className="md:h-auto md:w-auto h-4 w-4"
+                className="h-4 w-4 md:h-auto md:w-auto"
                 version="1.1"
                 data-view-component="true"
               >
@@ -64,41 +64,41 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-1">
-          <span className="text-darkheading2 font-serif text-xl md:text-2xl">
+          <span className="font-serif text-xl text-darkheading2 md:text-2xl">
             Navigate
           </span>
           <Link
             href="/"
-            className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
+            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
           >
             Home
           </Link>
           <Link
             href="/apply"
-            className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
+            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
           >
             Apply
           </Link>
           <Link
             href="/year-zero"
-            className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
+            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
           >
             Year Zero
           </Link>
           <Link
             href="/manifesto"
-            className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
+            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
           >
             Manifesto (Archived)
           </Link>
         </div>
         <div className="flex flex-col">
-          <span className="text-darkheading2 font-serif text-xl md:text-2xl">
+          <span className="font-serif text-xl text-darkheading2 md:text-2xl">
             Contact
           </span>
           <Link
             href="mailto:hi@wayfarers.space"
-            className="text-darktext font-serif hover:text-opacity-70 text-lg md:text-xl"
+            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
           >
             hi@wayfarers.space
           </Link>

@@ -4,42 +4,42 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-screen overflow-x-hidden items-center justify-center bg-darkdark">
-      <div className="max-w-5xl w-full flex h-screen flex-col items-start justify-center p-6 sm:px-12 md:pl-12 xl:pl-0 gap-y-8">
-        <div className="flex justify-center md:h-auto sm:[350px] md:w-[600px] xl:w-[800px] flex-col gap-4 bg-darkdark backdrop-blur-sm bg-opacity-5 ">
-          <h1 className="font-head text-4xl md:text-6xl xl:text-7xl text-darkheading">
-            Year Zero{" "}
-            <span className="italic text-darkheading2 text-2xl md:text-3xl xl:text-4xl">
-              &mdash; get back to the future
+    <main className="flex min-h-screen flex-col items-center justify-center overflow-x-hidden bg-darkdark">
+      <div className="flex h-screen w-full max-w-5xl flex-col items-start justify-center gap-y-8 p-6 sm:px-12 md:pl-12 xl:pl-0">
+        <div className="sm:[350px] flex flex-col justify-center gap-4 bg-darkdark bg-opacity-5 backdrop-blur-sm md:h-auto md:w-[600px] xl:w-[800px] ">
+          <h1 className="font-head text-4xl text-darkheading md:text-6xl xl:text-7xl">
+            Year Zero
+            <span className="block text-2xl italic text-darkheading2 md:inline-block md:text-3xl xl:text-4xl">
+              &nbsp;&mdash; get back to the future
             </span>
           </h1>
-          <p className="font-serif text-md md:text-lg xl:text-xl text-darktext">
-            An annual round table for autodidacts, and dropouts organized by
-            wayfarers space to come together to discuss how to make the future
+          <p className="text-md font-serif text-darktext md:text-lg xl:text-xl">
+            An annual roundtable for autodidacts and dropouts organized by
+            Wayfarers Space to come together to discuss how to make the future
             look like the future and understand the world audaciously by
             undertaking a path different than that of traditional route of
             schools.
           </p>
         </div>
-        <div className="flex flex-col gap-3 text-md md:text-lg xl:text-xl">
-          <h2 className=" text-darkheading2 font-head">
+        <div className="text-md flex flex-col gap-3 md:text-lg xl:text-xl">
+          <h2 className=" font-head text-darkheading2">
             Join us for our first round table event.
           </h2>
           <div className="flex flex-col gap-2 font-serif text-darktext ">
-            <div className="flex flex-row gap-2 items-center">
-              <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
+            <div className="flex flex-row items-center gap-2">
+              <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
                 <Calendar color="#8C8C8C" size="16" />
               </span>
-              Early next year
+              12th-16th February 2024
             </div>
-            <div className="flex flex-row gap-2 items-center">
-              <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
+            <div className="flex flex-row items-center gap-2">
+              <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
                 <MapPin color="#8C8C8C" size="16" />
               </span>
-              Bangalore, India
+              Bengaluru, India
             </div>
-            <Link href="/discord" className="flex flex-row gap-2 items-center">
-              <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
+            <Link href="/discord" className="flex flex-row items-center gap-2">
+              <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
                 <svg
                   width="16"
                   height="13"
@@ -59,53 +59,165 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="w-full flex min-h-screen flex-col items-center justify-center gap-y-8 px-6 sm:px-24 md:px-12 xl:px-0 max-w-5xl">
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight border border-transparent hover:border hover:border-darktext">
-            <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
-              What is the event
-            </h2>
-            <p className="font-serif text-darktext text-lg md:text-xl">
-              An event for those who prefer not to spend their time replacing
-              thoughts of the future with classroom seats. Discussing how to
-              make the future look like the future and meet new interesting
-              people.
-            </p>
-          </div>
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight border border-transparent hover:border hover:border-darktext">
-            <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
-              What is &ldquo;Year Zero&rdquo;
-            </h2>
-            <p className="font-serif text-darktext text-lg md:text-xl">
-              Year Zero is an idea put into practice by Pol Pot in Cambodia,
-              that all culture and traditions within a society must be
-              completely destroyed or discarded, and a new revolutionary culture
-              must replace it, starting from scratch.
-            </p>
-          </div>
+      <div className="mx-6 flex max-w-3xl flex-col items-center gap-12 py-16 sm:mx-12 md:mx-6 xl:mx-0">
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            What is the event
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            &ldquo;Year Zero&rdquo; is a gathering designed to meet and discuss
+            the future and the world. Here are a few things we plan to do:
+            <ul className="mt-5 list-inside list-disc">
+              <li>
+                Roundtable discussions with subject experts, founders, and
+                interesting individuals around our theme of getting back to the
+                future, touching on topics ranging from Qualia to Quantum
+                physics.
+              </li>
+              <li>
+                Dialogues about the future of Wayfarers Space, creating labs for
+                a better environment, navigating unconventional paths, and
+                building personal communities.
+              </li>
+              <li>
+                Flâneuring — mindful strolling through cities, taking time to
+                observe and absorb the surroundings without a specific
+                destination in mind.
+              </li>
+              <li>A no-plan &ldquo;adventure&rdquo; retreat at the end.</li>
+            </ul>
+          </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight border border-transparent hover:border hover:border-darktext ">
-            <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
-              Who are we
-            </h2>
-            <p className="font-serif text-darktext text-lg md:text-xl">
-              We are unschoolers, dropouts and autodidacts passionate about
-              technology and the world. We have people working in deep learning,
-              hardware, biotech, software and design.
-            </p>
-          </div>
-          <div className="flex relative w-full md:w-1/2 gap-3 p-6 text-left items-start rounded-md flex-col bg-darkhighlight  border border-transparent hover:border hover:border-darktext">
-            <h2 className="font-head text-darkheading2 text-2xl md:text-3xl">
-              Our long term goals
-            </h2>
-            <p className="font-serif text-darktext text-lg md:text-xl">
-              Build a better environment for learning and progress than
-              traditional school systems by building labs around the world and
-              make Year Zero the-go event for discussing how to build the
-              future.
-            </p>
-          </div>
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            What is &ldquo;Year Zero&rdquo;
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            Year Zero, as conceptualized for this event, is an initiative to
+            start anew, rethinking our approach to education. It&rsquo;s
+            distinct, but inspired from the historical concept associated with
+            Pol Pot in Cambodia, where all culture and traditions within a
+            society were to be destroyed or discarded, and a new revolutionary
+            culture was to replace it, starting from scratch.
+          </p>
+        </div>
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            Who is this event for
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            This event is specifically designed for those carving their own path
+            — the unschoolers, dropouts, and unconventionalists. Apply if this
+            resonates with you.
+          </p>
+        </div>
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            Why we are doing this
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            <ul className="list-inside list-disc">
+              <li>
+                To provide a social environment for like-minded individuals,
+                full of optimism and intelligence.
+              </li>
+              <li>
+                To kickstart the Wayfarers Space community in India and around
+                the world, navigating this relatively new path together.
+                Essentially, creating a “tribe” for those who plan to do bold
+                things.
+              </li>
+              <li>
+                To initiate a decade-long movement with Wayfarers Space for
+                creating better environments, specifically building the
+                technological future.
+              </li>
+              <li>
+                To gain a deeper understanding of the world, enabling us to do
+                interesting things.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            About us
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            We are a group of young people from India, optimistic about
+            technology and the world. Our team has people working in deep
+            learning, hardware, genomics, software, and design.
+            <ul className="mt-5 list-inside list-disc">
+              <li>
+                <Link
+                  className="underline hover:decoration-dotted hover:opacity-70"
+                  href="https://matreja.me/"
+                >
+                  Aman
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="underline hover:decoration-dotted hover:opacity-70"
+                  href="https://bad.al"
+                >
+                  Badal
+                </Link>{" "}
+              </li>
+              <li>
+                <Link
+                  className="underline hover:decoration-dotted hover:opacity-70"
+                  href="https://daspartho.github.io/"
+                >
+                  Partho
+                </Link>{" "}
+              </li>
+              <li>
+                <Link
+                  className="underline hover:decoration-dotted hover:opacity-70"
+                  href="https://x.com/pranav_berry"
+                >
+                  Pranav
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="underline hover:decoration-dotted hover:opacity-70"
+                  href="https://x.com/pasricha_sehaj"
+                >
+                  Sehaj
+                </Link>
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            Our long term goals
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            <ul className="list-inside list-disc">
+              <li>
+                To build a better environment for learning and progress than
+                traditional school systems by establishing labs worldwide.
+              </li>
+              <li>
+                To make &lsquo;Year Zero&rsquo; the go-to event for discussing
+                how to get back to the future.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="relative flex-col items-center justify-center gap-1">
+          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+            A note for you
+          </h1>
+          <p className="font-serif text-lg text-darktext md:text-xl">
+            There are still things to be figured out. There are still aspects to
+            be figured out. You have the opportunity to join the team early,
+            help us organize this, and be part of the movement from its
+            beginning stages.
+          </p>
         </div>
       </div>
     </main>
@@ -114,11 +226,11 @@ export default function Page() {
 
 const LearnMore = ({ link }: { link: string }) => {
   return (
-    <div className="flex flex-row gap-2 items-center">
-      <span className="bg-darkhighlight p-[0.6rem] rounded-sm">
+    <div className="flex flex-row items-center gap-2">
+      <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
         <ArrowDownRight color="#8C8C8C" size="16" />
       </span>
-      <Link href={link} className="flex flex-row gap-2 items-center">
+      <Link href={link} className="flex flex-row items-center gap-2">
         Learn more
       </Link>
     </div>
