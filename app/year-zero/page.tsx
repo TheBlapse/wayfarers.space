@@ -27,19 +27,19 @@ export default function Page() {
           </h2>
           <div className="flex flex-col gap-2 font-serif text-darktext ">
             <div className="flex flex-row items-center gap-2">
-              <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
+              <span className="rounded-lg bg-darkhighlight p-[0.6rem]">
                 <Calendar color="#8C8C8C" size="16" />
               </span>
               12th-16th February 2024
             </div>
             <div className="flex flex-row items-center gap-2">
-              <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
+              <span className="rounded-lg bg-darkhighlight p-[0.6rem]">
                 <MapPin color="#8C8C8C" size="16" />
               </span>
               Bengaluru, India
             </div>
             <Link href="/discord" className="flex flex-row items-center gap-2">
-              <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
+              <span className="rounded-lg bg-darkhighlight p-[0.6rem]">
                 <svg
                   width="16"
                   height="13"
