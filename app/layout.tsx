@@ -26,7 +26,7 @@ export const metadata = {
   description:
     "We are a community of autodidacts and dropouts creating an alternative and better environment for ourselves, one that the conventional system should have provided, but didn&rsquo;t. And we aim to support each other in getting educated in the most adventurous and audacious way possible by cundertaking the most ambitious goals.",
   viewport: "width=device-width, initial-scale=1",
-  themeColor: "#121212",
+  themeColor: "#EDEDED",
 };
 
 export default function RootLayout({

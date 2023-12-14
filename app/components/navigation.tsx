@@ -105,7 +105,7 @@ const BottomStickyNavbar = () => {
               className="pt-[9px] hover:opacity-70 focus:outline-none"
               onClick={() => toggleDropdown()}
             >
-              <Menu color="#BFBFBF" size={16} />
+              <Menu color="#404040" size={16} />
             </button>
           </div>
         </div>
@@ -114,13 +114,13 @@ const BottomStickyNavbar = () => {
         <div
           ref={dropdownRef}
           style={{ overflow: "hidden" }}
-          className="text-md bg-lightbg fixed bottom-0 left-1/2 z-[55] flex h-screen w-screen -translate-x-1/2 transform scroll-m-0 flex-col items-center justify-center gap-8 overflow-hidden bg-opacity-100 py-16 font-head text-lightheading backdrop-blur-xl backdrop-opacity-50 md:hidden"
+          className="text-md fixed bottom-0 left-1/2 z-[55] flex h-screen w-screen -translate-x-1/2 transform scroll-m-0 flex-col items-center justify-center gap-8 overflow-hidden bg-lightbg bg-opacity-100 py-16 font-head text-lightheading backdrop-blur-xl backdrop-opacity-50 md:hidden"
         >
           <button
             className="self-start-end mr-8 self-end hover:opacity-70 focus:outline-none"
             onClick={() => toggleDropdown()}
           >
-            <X color="#BFBFBF" size={18} />
+            <X color="#404040" size={18} />
           </button>
           {navItems.map((item, index) => (
             <Link
