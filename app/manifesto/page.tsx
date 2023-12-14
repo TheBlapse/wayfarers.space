@@ -9,12 +9,12 @@ function getLastUpdatedDate(): string {
 
 export default function page() {
   return (
-    <main className="align-center bg-lightbg flex min-h-screen flex-col content-center items-center gap-4 py-8 text-lightheading">
+    <main className="align-center dark:bg-darkbg dark:text-darkheading flex min-h-screen flex-col content-center items-center gap-4 bg-lightbg py-8 text-lightheading">
       <div className="self-start pl-8 font-mono  md:pl-16">
         <span className="font-semibold line-through">Last Updated</span>:{" "}
         <span> Archived</span> {/* {getLastUpdatedDate()} */}
       </div>
-      <div className=" align-center text-lighttitle mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 text-center font-head text-2xl font-[600] md:w-[75vw] md:text-3xl lg:w-[60vw] ">
+      <div className=" align-center dark:text-darktitle mx-auto flex w-[90vw] max-w-2xl flex-col gap-3 text-center font-head text-2xl font-[600] text-lighttitle md:w-[75vw] md:text-3xl lg:w-[60vw] ">
         The Manifesto
       </div>
 
@@ -194,7 +194,7 @@ export default function page() {
           </a>{" "}
           &mdash;
         </p>
-        <blockquote className="pl-6 opacity-90">
+        <blockquote className="pl-6 opacity-90 dark:opacity-90">
           &ldquo;I do not condemn a man for having a job. I chastise him for
           believing that this is all he is worth. There are glorious talents
           that are unique only to You. Nature does not make carbon copies. And
