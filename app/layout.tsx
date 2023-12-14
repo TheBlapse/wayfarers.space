@@ -6,6 +6,7 @@ import Script from "next/script";
 
 import Announcement from "./components/announcement";
 import Footer from "./components/footer";
+import SmoothScrolling from "./components/lenis-scroll";
 import Navigation from "./components/navigation";
 
 const cardo = Cardo({
@@ -43,10 +44,11 @@ export default function RootLayout({
         />
       </head>
       <link rel="icon" href="/images/favicon.png" sizes="any" />
+
       <body suppressHydrationWarning={true}>
         <Announcement />
         <Navigation />
-        {children}
+        <SmoothScrolling> {children}</SmoothScrolling>
         <Footer />
       </body>
     </html>

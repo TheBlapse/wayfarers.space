@@ -5,7 +5,6 @@
   html,
   body {
     background-color: #fafafa;
-    border-top: 2px solid #0a0a0a;
   }
 }
 .text-shadow {
@@ -33,7 +32,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: grey;
   border-radius: 5000px;
   /* outline: 1px solid ; */
 }

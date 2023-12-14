@@ -12,18 +12,17 @@ module.exports = {
     extend: {
       colors: {
         // dark mode
-        darkdark: "#0A0A0A",
-        darklight: "#F2F2F2",
-        darkheading: "#E6E6E6",
-        darkheading2: "#BFBFBF",
+        darkbg: "#0A0A0A",
+        darktitle: "#F2F2F2",
+        darkheading: "#BFBFBF",
         darktext: "#8C8C8C",
         darkhighlight: "#191919",
         // light mode
-        lightdark: "#121212",
-        lightlight: "#EDEDED",
-        lightheading: "#EDEDED",
-        lighttext: "#333333",
-        lightheading: "#CCCCCC",
+        lightbg: "#EDEDED",
+        lighttitle: "#0D0D0D",
+        lightheading: "#404040",
+        lighttext: "#5E5E5E",
+        lighthighlight: "#D9D9D9",
       },
       fontFamily: {
         head: ["var(--font-cardo)"],

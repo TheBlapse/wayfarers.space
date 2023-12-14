@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center overflow-x-hidden bg-darkdark">
+    <main className="bg-lightbg flex min-h-screen flex-col items-center justify-center overflow-x-hidden">
       <div className="flex h-screen w-full max-w-5xl flex-col items-start justify-center gap-y-8 p-6 sm:px-12 md:pl-12 xl:pl-0">
-        <div className="sm:[350px] flex flex-col justify-center gap-4 bg-darkdark bg-opacity-5 backdrop-blur-sm md:h-auto md:w-[600px] xl:w-[800px] ">
-          <h1 className="font-head text-4xl text-darkheading md:text-6xl xl:text-7xl">
+        <div className="sm:[350px] bg-lightbg flex flex-col justify-center gap-4 bg-opacity-5 backdrop-blur-sm md:h-auto md:w-[600px] xl:w-[800px] ">
+          <h1 className="text-lighttitle font-head text-4xl md:text-6xl xl:text-7xl">
             Year Zero
-            <span className="block text-2xl italic text-darkheading2 md:inline-block md:text-3xl xl:text-4xl">
+            <span className="block text-2xl italic text-lightheading md:inline-block md:text-3xl xl:text-4xl">
               &nbsp;&mdash; get back to the future
             </span>
           </h1>
-          <p className="text-md font-serif text-darktext md:text-lg xl:text-xl">
+          <p className="text-md font-serif text-lighttext md:text-lg xl:text-xl">
             An annual roundtable for autodidacts and dropouts organized by
             Wayfarers Space to come together to discuss how to make the future
             look like the future and understand the world audaciously by
@@ -22,24 +22,24 @@ export default function Page() {
           </p>
         </div>
         <div className="text-md flex flex-col gap-3 md:text-lg xl:text-xl">
-          <h2 className=" font-head text-darkheading2">
+          <h2 className=" font-head text-lightheading">
             Join us for our first round table event.
           </h2>
-          <div className="flex flex-col gap-2 font-serif text-darktext ">
+          <div className="flex flex-col gap-2 font-serif text-lighttext ">
             <div className="flex flex-row items-center gap-2">
-              <span className="rounded-lg bg-darkhighlight p-[0.6rem]">
+              <span className="bg-lighthighlight rounded-lg p-[0.6rem]">
                 <Calendar color="#8C8C8C" size="16" />
               </span>
               12th-16th February 2024
             </div>
             <div className="flex flex-row items-center gap-2">
-              <span className="rounded-lg bg-darkhighlight p-[0.6rem]">
+              <span className="bg-lighthighlight rounded-lg p-[0.6rem]">
                 <MapPin color="#8C8C8C" size="16" />
               </span>
               Bengaluru, India
             </div>
             <Link href="/discord" className="flex flex-row items-center gap-2">
-              <span className="rounded-lg bg-darkhighlight p-[0.6rem]">
+              <span className="bg-lighthighlight rounded-lg p-[0.6rem]">
                 <svg
                   width="16"
                   height="13"
@@ -61,14 +61,14 @@ export default function Page() {
       </div>
       <div className="mx-6 flex max-w-3xl flex-col items-center gap-12 py-16 sm:mx-12 md:mx-6 xl:mx-0">
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             What is the event
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
+          <p className="font-serif text-lg text-lighttext md:text-xl">
             &ldquo;Year Zero&rdquo; is a gathering designed to meet and discuss
             the future and the world. Here are a few things we plan to do:
           </p>
-          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-lighttext md:ml-5 md:text-xl">
             <li>
               Roundtable discussions with subject experts, founders, and
               interesting individuals around our theme of getting back to the
@@ -88,10 +88,10 @@ export default function Page() {
           </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             What is &ldquo;Year Zero&rdquo;
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
+          <p className="font-serif text-lg text-lighttext md:text-xl">
             Year Zero, as conceptualized for this event, is an initiative to
             start anew, rethinking our approach to education. It&rsquo;s
             distinct, but inspired from the historical concept associated with
@@ -101,20 +101,20 @@ export default function Page() {
           </p>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             Who is this event for
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
+          <p className="font-serif text-lg text-lighttext md:text-xl">
             This event is specifically designed for those carving their own path
             — the unschoolers, dropouts, and unconventionalists. Apply if this
             resonates with you.
           </p>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             Why we are doing this
           </h1>
-          <ul className="ml-4 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+          <ul className="ml-4 list-inside list-disc font-serif text-lg text-lighttext md:ml-5 md:text-xl">
             <li>
               To provide a social environment for like-minded individuals, full
               of optimism and intelligence.
@@ -136,16 +136,16 @@ export default function Page() {
           </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             About us
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
+          <p className="font-serif text-lg text-lighttext md:text-xl">
             We are a group of young people from India, optimistic about
             technology and the world. Our team has people working in deep
             learning, hardware, genomics, software, and design.
           </p>
 
-          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-lighttext md:ml-5 md:text-xl">
             <Link
               className="underline hover:decoration-dotted hover:opacity-70"
               href="https://matreja.me/"
@@ -183,10 +183,10 @@ export default function Page() {
           </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             Our long term goals
           </h1>
-          <ul className="ml-4 list-inside list-disc font-serif text-lg text-darktext md:ml-5 md:text-xl">
+          <ul className="ml-4 list-inside list-disc font-serif text-lg text-lighttext md:ml-5 md:text-xl">
             <li>
               To build a better environment for learning and progress than
               traditional school systems by establishing labs worldwide.
@@ -198,10 +198,10 @@ export default function Page() {
           </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
-          <h1 className="font-head text-xl italic text-darkheading2 md:text-2xl">
+          <h1 className="font-head text-xl  text-lightheading md:text-2xl">
             A note for you
           </h1>
-          <p className="font-serif text-lg text-darktext md:text-xl">
+          <p className="font-serif text-lg text-lighttext md:text-xl">
             There are still things to be figured out. There are still aspects to
             be figured out. You have the opportunity to join the team early,
             help us organize this, and be part of the movement from its
@@ -216,7 +216,7 @@ export default function Page() {
 const LearnMore = ({ link }: { link: string }) => {
   return (
     <div className="flex flex-row items-center gap-2">
-      <span className="rounded-sm bg-darkhighlight p-[0.6rem]">
+      <span className="bg-lighthighlight rounded-sm p-[0.6rem]">
         <ArrowDownRight color="#8C8C8C" size="16" />
       </span>
       <Link href={link} className="flex flex-row items-center gap-2">

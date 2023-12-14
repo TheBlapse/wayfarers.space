@@ -2,16 +2,16 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen z-50 flex h-full min-h-full flex-col items-center justify-start gap-12 overflow-x-hidden bg-darkdark md:mx-0 md:justify-evenly">
-      <div className="relative z-50 flex w-full max-w-3xl flex-col justify-start gap-y-8 border-t-2 border-t-darkhighlight bg-darkdark px-6 py-16 md:flex-row md:justify-between md:gap-0 md:px-0  md:py-12">
+    <footer className="max-w-screen bg-lightbg z-50 flex h-full min-h-full flex-col items-center justify-start gap-12 overflow-x-hidden md:mx-0 md:justify-evenly">
+      <div className="bg-lightbg border-t-lighthighlight relative z-50 flex w-full max-w-3xl flex-col justify-start gap-y-8 border-t-2 px-6 py-16 md:flex-row md:justify-between md:gap-0 md:px-0  md:py-12">
         <div className="flex flex-col">
-          <span className="flex flex-col font-serif text-xl text-darkheading2 md:text-2xl">
+          <span className="flex flex-col font-serif text-xl text-lightheading md:text-2xl">
             Wayfarers Space
           </span>
           <div className="flex flex-row items-center gap-4 py-2">
             <Link
               href="/x"
-              className="font-serif text-lg text-darkheading2  hover:opacity-70 md:text-xl"
+              className="font-serif text-lg text-lightheading  hover:opacity-70 md:text-xl"
             >
               <svg
                 height="21"
@@ -28,7 +28,7 @@ const Footer = () => {
             </Link>
             <Link
               href="/discord"
-              className="font-serif text-lg text-darkheading2 hover:opacity-70 md:text-xl"
+              className="font-serif text-lg text-lightheading hover:opacity-70 md:text-xl"
             >
               <svg
                 height="21"
@@ -45,7 +45,7 @@ const Footer = () => {
             </Link>
             <Link
               href="/github"
-              className="font-serif text-lg text-darkheading2 hover:opacity-70 md:text-xl"
+              className="font-serif text-lg text-lightheading hover:opacity-70 md:text-xl"
             >
               <svg
                 height="21"
@@ -64,41 +64,41 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-1">
-          <span className="font-serif text-xl text-darkheading2 md:text-2xl">
+          <span className="font-serif text-xl text-lightheading md:text-2xl">
             Navigate
           </span>
           <Link
             href="/"
-            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
+            className="font-serif text-lg text-lighttext hover:text-opacity-70 md:text-xl"
           >
             Home
           </Link>
           <Link
             href="/apply"
-            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
+            className="font-serif text-lg text-lighttext hover:text-opacity-70 md:text-xl"
           >
             Apply
           </Link>
           <Link
             href="/year-zero"
-            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
+            className="font-serif text-lg text-lighttext hover:text-opacity-70 md:text-xl"
           >
             Year Zero
           </Link>
           <Link
             href="/manifesto"
-            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
+            className="font-serif text-lg text-lighttext hover:text-opacity-70 md:text-xl"
           >
             Manifesto (Archived)
           </Link>
         </div>
         <div className="flex flex-col">
-          <span className="font-serif text-xl text-darkheading2 md:text-2xl">
+          <span className="font-serif text-xl text-lightheading md:text-2xl">
             Contact
           </span>
           <Link
             href="mailto:hi@wayfarers.space"
-            className="font-serif text-lg text-darktext hover:text-opacity-70 md:text-xl"
+            className="font-serif text-lg text-lighttext hover:text-opacity-70 md:text-xl"
           >
             hi@wayfarers.space
           </Link>
