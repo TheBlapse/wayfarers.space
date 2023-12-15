@@ -84,12 +84,6 @@ const Footer = () => {
           >
             Year Zero
           </Link>
-          <Link
-            href="/manifesto"
-            className="font-serif text-lg text-lighttext hover:text-opacity-70 dark:hover:opacity-70 dark:text-darktext dark:hover:text-opacity-70 md:text-xl"
-          >
-            Manifesto (Archived)
-          </Link>
         </div>
         <div className="flex flex-col">
           <span className="font-serif text-xl text-lightheading dark:text-darkheading md:text-2xl">
