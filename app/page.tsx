@@ -93,7 +93,7 @@ export default function Home() {
             As we&rsquo;re not following the formal path of education, we want
             to create an environment where like minded people can come together
             to discuss and learn about important things together. We are being
-            very aware and mindful of the things that (few) universities do
+            very aware and mindful of the things that a few universities do
             provide like network benefits, credibility to stand apart and a room
             full of smart people. So we aim to tackle these points in a new and
             original way, as it should be in the age of the internet.
