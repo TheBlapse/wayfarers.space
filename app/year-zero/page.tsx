@@ -61,6 +61,15 @@ export default function Page() {
             </Link>
           </div>
         </div>
+        <div className="flex flex-row gap-4">
+          <Link
+            href="https://tally.so/r/3xJWev"
+            target="_blank"
+            className="md:text-md w-full cursor-pointer rounded-full border-2 border-black border-opacity-[14%] px-12 py-1 font-serif text-base text-lighttext hover:border-transparent hover:bg-black hover:bg-opacity-[14%] hover:text-lightheading dark:border-white dark:border-opacity-[14%] dark:text-darktext dark:hover:border-opacity-[14%] dark:hover:bg-white dark:hover:bg-opacity-[14%] hover:dark:text-darkheading md:px-20 xl:px-24 xl:text-xl"
+          >
+            Submit your interest
+          </Link>
+        </div>
       </div>
       <div className="mx-6 flex max-w-3xl flex-col items-center gap-12 py-16 sm:mx-12 md:mx-6 xl:mx-0">
         <div className="relative flex-col items-center justify-center gap-1">

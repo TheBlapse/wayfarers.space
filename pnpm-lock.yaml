@@ -65,11 +65,17 @@ dependencies:
   tailwindcss:
     specifier: 3.3.1
     version: 3.3.1(postcss@8.4.21)
+  three:
+    specifier: ^0.159.0
+    version: 0.159.0
   typescript:
     specifier: 5.0.4
     version: 5.0.4
 
 devDependencies:
+  '@types/three':
+    specifier: ^0.159.0
+    version: 0.159.0
   prettier:
     specifier: ^3.1.0
     version: 3.1.0
@@ -425,6 +431,23 @@ packages:
   /@types/scheduler@0.16.8:
     resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
     dev: false
+
+  /@types/stats.js@0.17.3:
+    resolution: {integrity: sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==}
+    dev: true
+
+  /@types/three@0.159.0:
+    resolution: {integrity: sha512-2gybdh7HtX+rGUgslzK7QEJfzD2I0qrbUGzKk+dK0FDx49UHkNX0rqZVRzIgeFjBd1HzzhNNgwNoMacm3Wyc7w==}
+    dependencies:
+      '@types/stats.js': 0.17.3
+      '@types/webxr': 0.5.10
+      fflate: 0.6.10
+      meshoptimizer: 0.18.1
+    dev: true
+
+  /@types/webxr@0.5.10:
+    resolution: {integrity: sha512-n3u5sqXQJhf1CS68mw3Wf16FQ4cRPNBBwdYLFzq3UddiADOim1Pn3Y6PBdDilz1vOJF3ybLxJ8ZEDlLIzrOQZg==}
+    dev: true
 
   /@typescript-eslint/parser@5.62.0(eslint@8.38.0)(typescript@5.0.4):
     resolution: {integrity: sha512-VlJEV0fOQ7BExOsHYAGrgbEiZoi8D+Bl2+f6V2RrXerRSylnp+ZBHmPvaIa8cz0Ajx7WO7Z5RqfgYg7ED1nRhA==}
@@ -1334,6 +1357,10 @@ packages:
       reusify: 1.0.4
     dev: false
 
+  /fflate@0.6.10:
+    resolution: {integrity: sha512-IQrh3lEPM93wVCEczc9SaAOvkmcoQn/G8Bo1e8ZPlY3X3bnAxWaBdvTdvM1hP62iZp0BXWDy4vTAy4fF0+Dlpg==}
+    dev: true
+
   /file-entry-cache@6.0.1:
     resolution: {integrity: sha512-7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==}
     engines: {node: ^10.12.0 || >=12.0.0}
@@ -1972,6 +1999,10 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
     dev: false
+
+  /meshoptimizer@0.18.1:
+    resolution: {integrity: sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==}
+    dev: true
 
   /micromatch@4.0.5:
     resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
@@ -2824,6 +2855,10 @@ packages:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
     dependencies:
       any-promise: 1.3.0
+    dev: false
+
+  /three@0.159.0:
+    resolution: {integrity: sha512-eCmhlLGbBgucuo4VEA9IO3Qpc7dh8Bd4VKzr7WfW4+8hMcIfoAVi1ev0pJYN9PTTsCslbcKgBwr2wNZ1EvLInA==}
     dev: false
 
   /to-regex-range@5.0.1:
