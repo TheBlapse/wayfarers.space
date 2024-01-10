@@ -105,11 +105,7 @@ export default function Page() {
           </h1>
           <p className="font-serif text-lg text-lighttext dark:text-darktext md:text-xl">
             Year Zero, as conceptualized for this event, is an initiative to
-            start anew, rethinking our approach to education. It&rsquo;s
-            distinct, but inspired from the historical concept associated with
-            Pol Pot in Cambodia, where all culture and traditions within a
-            society were to be destroyed or discarded, and a new revolutionary
-            culture was to replace it, starting from scratch.
+            start anew, rethinking our approach to education. For us, it signifies starting from scratch and thinking from first principles about educating oneself, while the theme is inspired from the contrarian concept of the great stagnation.
           </p>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
