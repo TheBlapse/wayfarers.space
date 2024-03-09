@@ -45,7 +45,6 @@ export default function RootLayout({
       <link rel="icon" href="/images/favicon.png" sizes="any" />
 
       <body suppressHydrationWarning={true}>
-        <Announcement />
         <Navigation />
         <SmoothScrolling> {children}</SmoothScrolling>
         <Footer />
