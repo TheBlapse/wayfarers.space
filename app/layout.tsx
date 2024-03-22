@@ -1,7 +1,7 @@
 import "./globals.css";
 
-import PlausibleProvider from "next-plausible";
 import { Bellefair, Cardo } from "next/font/google";
+import Script from "next/script";
 
 import Announcement from "./components/announcement";
 import Footer from "./components/footer";
@@ -36,12 +36,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cardo.variable}  ${bellefair.variable}`}>
       <head>
-        <PlausibleProvider
-          domain="wayfarers.space"
-          customDomain="https://anal.bad.al"
-          selfHosted={true}
-        />
+        <Script
+          defer
+          src="https://us.umami.is/script.js"
+          data-website-id="05d4da7f-65f3-47f5-89c1-8ebb641206cc"
+        ></Script>
       </head>
+
       <link rel="icon" href="/images/favicon.png" sizes="any" />
 
       <body suppressHydrationWarning={true}>
