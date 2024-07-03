@@ -152,43 +152,6 @@ export default function Page() {
             technology and the world. Our team has people working in deep
             learning, hardware, genomics, software, and design.
           </p>
-
-          <ul className="ml-4 mt-5 list-inside list-disc font-serif text-lg text-lighttext dark:text-darktext md:ml-5 md:text-xl">
-            <Link
-              className="underline hover:decoration-dotted hover:opacity-70 dark:hover:opacity-70"
-              href="https://matreja.me/"
-            >
-              <li>Aman</li>
-            </Link>
-
-            <Link
-              className="underline hover:decoration-dotted hover:opacity-70 dark:hover:opacity-70"
-              href="https://bad.al"
-            >
-              <li>Badal</li>
-            </Link>
-
-            <Link
-              className="underline hover:decoration-dotted hover:opacity-70 dark:hover:opacity-70"
-              href="https://daspartho.github.io/"
-            >
-              <li>Partho</li>
-            </Link>
-
-            <Link
-              className="underline hover:decoration-dotted hover:opacity-70 dark:hover:opacity-70"
-              href="https://x.com/pranav_berry"
-            >
-              <li>Pranav</li>
-            </Link>
-
-            <Link
-              className="underline hover:decoration-dotted hover:opacity-70 dark:hover:opacity-70"
-              href="https://x.com/pasricha_sehaj"
-            >
-              <li>Sehaj</li>
-            </Link>
-          </ul>
         </div>
         <div className="relative flex-col items-center justify-center gap-1">
           <h1 className="font-head text-xl  text-lightheading dark:text-darkheading md:text-2xl">
