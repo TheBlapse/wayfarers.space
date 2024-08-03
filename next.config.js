@@ -24,8 +24,8 @@ const nextConfig = {
         permanent: false,
       },
       {
-        source: "/apply",
-        destination: "https://tally.so/r/n07dVB",
+        source: "/theindustrialist",
+        destination: "https://www.theindustrialist.org/",
         permanent: true,
       },
     ];
