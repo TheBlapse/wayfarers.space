@@ -18,16 +18,16 @@ export default function Home() {
           </p>
           <div className="flex flex-row gap-4">
             <Link
-              href="/apply"
+              href="/discord"
               className="md:text-md w-fit cursor-pointer rounded-full border-2 border-transparent bg-black bg-opacity-[14%] px-4 py-1 font-serif text-base text-lightheading hover:border-black hover:border-opacity-[14%] hover:bg-transparent hover:text-lighttext dark:bg-white dark:bg-opacity-[14%] dark:text-darkheading dark:hover:border-opacity-[14%] dark:hover:bg-transparent dark:hover:text-darktext md:px-10 xl:px-12 xl:text-xl"
             >
-              Apply to Join
+              Join Discord
             </Link>
             <Link
-              href="/discord"
+              href="/theindustrialist"
               className="md:text-md w-fit cursor-pointer rounded-full border-2 border-black border-opacity-[14%] px-4 py-1 font-serif text-base text-lighttext hover:border-transparent hover:bg-black hover:bg-opacity-[14%] hover:text-lightheading dark:border-white dark:border-opacity-[14%] dark:text-darktext dark:hover:border-opacity-[14%] dark:hover:bg-white dark:hover:bg-opacity-[14%] hover:dark:text-darkheading md:px-10 xl:px-12 xl:text-xl"
             >
-              Join Discord
+              The Industrialist
             </Link>
           </div>
         </div>
